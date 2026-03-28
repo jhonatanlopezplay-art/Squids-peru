@@ -1,0 +1,394 @@
+[28Mar2026 20:41:54.763] [main/INFO] [FabricLoader/GameProvider/]: Loading Minecraft 1.21.1 Arclight arclight-1.21.1-1.0.2-SNAPSHOT-9c004d4 with Fabric Loader 0.18.2
+mainEx[28Mar2026 20:41:55.559] [main/INFO] [FabricLoader/]: Loading 45 mods:
+	- arclight 1.0.2-SNAPSHOT+9c004d4
+	   \-- fabric-permissions-api-v0 0.3.1
+	- fabric-api 0.116.9+1.21.1
+	   |-- fabric-api-base 0.4.42+6573ed8c19
+	   |-- fabric-api-lookup-api-v1 1.6.72+7b3d111d19
+	   |-- fabric-biome-api-v1 13.0.31+d527f9fd19
+	   |-- fabric-block-api-v1 1.1.0+0bc3503219
+	   |-- fabric-block-view-api-v2 1.0.11+ebb2264e19
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a719
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c19
+	   |-- fabric-command-api-v1 1.2.49+f71b366f19
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd919
+	   |-- fabric-commands-v0 0.2.66+df3654b319
+	   |-- fabric-content-registries-v0 8.0.19+b559734419
+	   |-- fabric-convention-tags-v1 2.1.6+7f945d5b19
+	   |-- fabric-convention-tags-v2 2.11.2+fa89716719
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a719
+	   |-- fabric-data-attachment-api-v1 1.4.6+5b36e0f719
+	   |-- fabric-data-generation-api-v1 20.2.35+37516cd619
+	   |-- fabric-dimensions-v1 4.0.1+65213ef819
+	   |-- fabric-entity-events-v1 1.8.0+2b27e0a419
+	   |-- fabric-events-interaction-v0 0.7.13+ba9dae0619
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd919
+	   |-- fabric-item-api-v1 11.2.0+3b3cb2e819
+	   |-- fabric-item-group-api-v1 4.1.7+def88e3a19
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a719
+	   |-- fabric-keybindings-v0 0.2.45+df3654b319
+	   |-- fabric-lifecycle-events-v1 2.6.0+0865547519
+	   |-- fabric-loot-api-v2 3.0.15+3f89f5a519
+	   |-- fabric-loot-api-v3 1.0.3+3f89f5a519
+	   |-- fabric-message-api-v1 6.0.14+8aaf3aca19
+	   |-- fabric-model-loading-api-v1 2.1.0+b4d813fc19
+	   |-- fabric-networking-api-v1 4.3.0+c7469b2119
+	   |-- fabric-object-builder-api-v1 15.2.1+40875a9319
+	   |-- fabric-particles-v1 4.0.2+6573ed8c19
+	   |-- fabric-recipe-api-v1 5.0.15+2475392c19
+	   |-- fabric-registry-sync-v0 5.3.1+e3eddc2119
+	   |-- fabric-renderer-api-v1 3.4.1+b4d813fc19
+	   |-- fabric-renderer-indigo 1.7.1+c705a49c19
+	   |-- fabric-renderer-registries-v1 3.2.69+df3654b319
+	   |-- fabric-rendering-data-attachment-v1 0.3.49+73761d2e19
+	   |-- fabric-rendering-fluids-v1 3.1.6+1daea21519
+	   |-- fabric-rendering-v0 1.1.72+df3654b319
+	   |-- fabric-rendering-v1 5.1.0+ab4c25a019
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
+	   |-- fabric-resource-loader-v0 1.3.1+5b5275af19
+	   |-- fabric-screen-api-v1 2.0.25+8b68f1c719
+	   |-- fabric-screen-handler-api-v1 1.3.90+b559734419
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8c19
+	   |-- fabric-transfer-api-v1 5.4.4+7b3d111d19
+	   \-- fabric-transitive-access-wideners-v1 6.2.0+45b9699719
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- java 21
+	- minecraft 1.21.1
+	- panal-mod 1.0.0
+	- papa-bomba 1-BETA
+mainEx[28Mar2026 20:41:55.896] [main/INFO] [FabricLoader/Mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Squids-peru/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+mainEx[28Mar2026 20:41:56.159] [main/INFO] [FabricLoader/Mixin/]: Compatibility level set to JAVA_21
+mainEx[28Mar2026 20:41:56.643] [main/INFO] [Arclight/]: Using locale en_ and fallback locale en_us
+mainEx[28Mar2026 20:41:56.647] [main/INFO] [Arclight/]: 
+
+       ___           ___     __   /\
+      /   | ________/ (_)__ / /  / /
+     / /| |/ __/ __/ / / _ / _ \/__/
+    / ___ / / / /_/ / / / / // / /
+   /_/  |/_/  \__/_/_/\_ /_//_/ /
+                     /__/     \/
+
+    Version 诸王 (Feudal Kings) / arclight-fabric-1.21.1-1.0.2-SNAPSHOT+9c004d4
+    Build Date 2026-01-20 14:20:11
+
+mainEx[28Mar2026 20:41:58.684] [main/INFO] [FabricLoader/MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+mainEx[28Mar2026 20:42:07.611] [main/INFO] [panal-mod/]: Registered ModItems
+mainEx[28Mar2026 20:42:07.611] [main/INFO] [panal-mod/]: [PanalMod] Sonidos registrados.
+mainEx[28Mar2026 20:42:07.616] [main/INFO] [panal-mod/]: PanalMod initialized!
+mainEx[28Mar2026 20:42:07.617] [main/INFO] [papa-bomba/]: 🥔 Papa Bomba inicializando...
+mainEx[28Mar2026 20:42:07.619] [main/INFO] [papa-bomba/]: Sonidos registrados: papa-bomba:enterrar papa-bomba:explosion
+mainEx[28Mar2026 20:42:07.634] [main/INFO] [papa-bomba/]: 🥔 Papa Bomba listo!
+mainEx[28Mar2026 20:42:07.745] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+mainEx[28Mar2026 20:42:10.156] [main/INFO] [net.minecraft.class_1863/]: Loaded 1290 recipes
+mainEx[28Mar2026 20:42:10.429] [main/INFO] [net.minecraft.class_163/]: Loaded 1399 advancements
+mainEx[28Mar2026 20:42:11.036] [main/INFO] [net.fabricmc.fabric.impl.biome.modification.BiomeModificationImpl/]: Applied 0 biome modifications to 0 of 64 new biomes in 1.249 ms
+mainEx[28Mar2026 20:42:11.043] [Server thread/INFO] [net.minecraft.class_3176/]: Starting minecraft server version 1.21.1
+Server threadEx[28Mar2026 20:42:11.044] [Server thread/INFO] [net.minecraft.class_3176/]: Loading properties
+Server threadEx[28Mar2026 20:42:11.044] [Server thread/INFO] [net.minecraft.class_3176/]: Default game type: SURVIVAL
+Server threadEx[28Mar2026 20:42:11.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+Server threadEx[28Mar2026 20:42:11.157] [Server thread/INFO] [net.minecraft.class_3176/]: Starting Minecraft server on *:25565
+Server threadEx[28Mar2026 20:42:11.238] [Server thread/INFO] [net.minecraft.class_3242/]: Using epoll channel type
+Server threadEx[28Mar2026 20:42:11.314] [Server thread/WARN] [net.minecraft.class_3176/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+Server threadEx[28Mar2026 20:42:11.314] [Server thread/WARN] [net.minecraft.class_3176/]: The server will make no attempt to authenticate usernames. Beware.
+Server threadEx[28Mar2026 20:42:11.314] [Server thread/WARN] [net.minecraft.class_3176/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+Server threadEx[28Mar2026 20:42:11.314] [Server thread/WARN] [net.minecraft.class_3176/]: To change this, set "online-mode" to "true" in the server.properties file.
+Server threadEx[28Mar2026 20:42:11.493] [Server thread/INFO] [Minecraft/]: This server is running Arclight version arclight-1.21.1-1.0.2-SNAPSHOT-9c004d4 (MC: 1.21.1) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+Server threadEx[28Mar2026 20:42:12.102] [Server thread/INFO] [Minecraft/]: *** This version of Spigot contains changes to some enums. If you notice that plugins no longer work after updating, please report this to the developers of those plugins first. ***
+Server threadEx[28Mar2026 20:42:12.102] [Server thread/INFO] [Minecraft/]: *** If you cannot update those plugins, you can try setting `settings.compatibility.enum-compatibility-mode` to `true` in `bukkit.yml`. ***
+Server threadEx[28Mar2026 20:42:12.649] [Server thread/INFO] [Arclight/]: Registering for Bukkit ...
+Server threadEx[28Mar2026 20:42:12.667] [Server thread/INFO] [Arclight/]: Registered 10 new materials with 4 blocks and 6 items
+Server threadEx[28Mar2026 20:42:12.937] [Server thread/INFO] [Arclight/]: Registered 0 new entity types
+Server threadEx[28Mar2026 20:42:12.938] [Server thread/INFO] [Arclight/]: Registered 0 new biomes
+Server threadEx[28Mar2026 20:42:12.967] [Server thread/INFO] [net.minecraft.class_2983/]: [STDOUT]: Server Ping Player Sample Count: 12
+Server threadEx[28Mar2026 20:42:12.971] [Spigot Watchdog Thread/INFO] [Arclight/]: Started pseudo Spigot watchdog thread.
+Spigot Watchdog ThreadEx[28Mar2026 20:42:12.971] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+Server threadEx[28Mar2026 20:42:12.972] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+Server threadEx[28Mar2026 20:42:13.241] [Server thread/INFO] [Arclight/]: Loading mappings ...
+Server threadEx[28Mar2026 20:42:13.772] [Server thread/INFO] [Arclight/]: Loading plugin patchers ...
+Server threadEx[28Mar2026 20:42:14.305] [Server thread/INFO] [WorldEdit/]: Loading WorldEdit v7.3.9+6959-7adf70b
+Server threadEx[28Mar2026 20:42:14.973] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@55b13a5b]
+Server threadEx[28Mar2026 20:42:14.979] [Server thread/INFO] [WorldEdit/]: Enabling WorldEdit v7.3.9+6959-7adf70b
+Server threadEx[28Mar2026 20:42:15.306] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+Server threadEx[28Mar2026 20:42:15.418] [Server thread/INFO] [com.sk89q.wepif.PermissionsResolverManager/]: WEPIF: Using the Bukkit Permissions API.
+Server threadEx[28Mar2026 20:42:15.559] [Server thread/WARN] [Arclight/]: Loading WorldEdit Bukkit support ...
+Server threadEx[28Mar2026 20:42:15.559] [Server thread/WARN] [Arclight/]: For WorldEdit compatibility issues, please report to us in advance!
+Server threadEx[28Mar2026 20:42:15.654] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+Server threadEx[28Mar2026 20:42:16.957] [Server thread/INFO] [WorldEdit/]: ====================================================
+Server threadEx[28Mar2026 20:42:16.958] [Server thread/INFO] [WorldEdit/]:  WorldEdit works better if you use Paper 
+Server threadEx[28Mar2026 20:42:16.958] [Server thread/INFO] [WorldEdit/]:  as your server software. 
+Server threadEx[28Mar2026 20:42:16.958] [Server thread/INFO] [WorldEdit/]:   
+Server threadEx[28Mar2026 20:42:16.958] [Server thread/INFO] [WorldEdit/]:  Paper offers significant performance improvements,
+Server threadEx[28Mar2026 20:42:16.958] [Server thread/INFO] [WorldEdit/]:  bug fixes, security enhancements and optional
+Server threadEx[28Mar2026 20:42:16.958] [Server thread/INFO] [WorldEdit/]:  features for server owners to enhance their server.
+Server threadEx[28Mar2026 20:42:16.958] [Server thread/INFO] [WorldEdit/]:   
+Server threadEx[28Mar2026 20:42:16.958] [Server thread/INFO] [WorldEdit/]:  Paper includes Timings v2, which is significantly
+Server threadEx[28Mar2026 20:42:16.958] [Server thread/INFO] [WorldEdit/]:  better at diagnosing lag problems over v1.
+Server threadEx[28Mar2026 20:42:16.958] [Server thread/INFO] [WorldEdit/]:   
+Server threadEx[28Mar2026 20:42:16.958] [Server thread/INFO] [WorldEdit/]:  All of your plugins should still work, and the
+Server threadEx[28Mar2026 20:42:16.958] [Server thread/INFO] [WorldEdit/]:  Paper community will gladly help you fix any issues.
+Server threadEx[28Mar2026 20:42:16.959] [Server thread/INFO] [WorldEdit/]:   
+Server threadEx[28Mar2026 20:42:16.959] [Server thread/INFO] [WorldEdit/]:  Join the Paper Community @ https://papermc.io
+Server threadEx[28Mar2026 20:42:16.959] [Server thread/INFO] [WorldEdit/]: ====================================================
+Server threadEx[28Mar2026 20:42:16.965] [Server thread/INFO] [net.minecraft.class_3176/]: Preparing level "world"
+Server threadEx[28Mar2026 20:42:16.976] [Server thread/INFO] [Arclight/]: Registered 0 new dimensions
+Server threadEx[28Mar2026 20:42:17.388] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world] --------
+Server threadEx[28Mar2026 20:42:17.388] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+Server threadEx[28Mar2026 20:42:17.389] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:17.389] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:17.389] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:17.389] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:17.389] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:17.389] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:17.389] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:17.389] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:17.389] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:17.389] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:17.389] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:17.389] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:17.389] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:17.389] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:17.389] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:17.389] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:17.389] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:17.389] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:17.389] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:17.390] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+Server threadEx[28Mar2026 20:42:17.390] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+Server threadEx[28Mar2026 20:42:17.390] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+Server threadEx[28Mar2026 20:42:17.390] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+Server threadEx[28Mar2026 20:42:17.390] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+Server threadEx[28Mar2026 20:42:17.390] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+Server threadEx[28Mar2026 20:42:17.390] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+Server threadEx[28Mar2026 20:42:17.390] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+Server threadEx[28Mar2026 20:42:17.390] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+Server threadEx[28Mar2026 20:42:17.390] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+Server threadEx[28Mar2026 20:42:17.390] [Server thread/INFO] [Minecraft/]: View Distance: 10
+Server threadEx[28Mar2026 20:42:17.390] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+Server threadEx[28Mar2026 20:42:17.390] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+Server threadEx[28Mar2026 20:42:17.390] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+Server threadEx[28Mar2026 20:42:17.390] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+Server threadEx[28Mar2026 20:42:21.839] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM-1] --------
+Server threadEx[28Mar2026 20:42:21.839] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+Server threadEx[28Mar2026 20:42:21.839] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.839] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.839] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.839] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.839] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.839] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.839] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.839] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.839] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.839] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.839] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.839] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.839] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.839] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.839] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.839] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.839] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.839] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.839] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.839] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+Server threadEx[28Mar2026 20:42:21.839] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+Server threadEx[28Mar2026 20:42:21.839] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+Server threadEx[28Mar2026 20:42:21.840] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+Server threadEx[28Mar2026 20:42:21.840] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+Server threadEx[28Mar2026 20:42:21.840] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+Server threadEx[28Mar2026 20:42:21.840] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+Server threadEx[28Mar2026 20:42:21.840] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+Server threadEx[28Mar2026 20:42:21.840] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+Server threadEx[28Mar2026 20:42:21.840] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+Server threadEx[28Mar2026 20:42:21.840] [Server thread/INFO] [Minecraft/]: View Distance: 10
+Server threadEx[28Mar2026 20:42:21.840] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+Server threadEx[28Mar2026 20:42:21.840] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+Server threadEx[28Mar2026 20:42:21.840] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+Server threadEx[28Mar2026 20:42:21.840] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+Server threadEx[28Mar2026 20:42:21.898] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM1] --------
+Server threadEx[28Mar2026 20:42:21.898] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+Server threadEx[28Mar2026 20:42:21.899] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+Server threadEx[28Mar2026 20:42:21.900] [Server thread/INFO] [Minecraft/]: View Distance: 10
+Server threadEx[28Mar2026 20:42:21.900] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+Server threadEx[28Mar2026 20:42:21.900] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+Server threadEx[28Mar2026 20:42:21.900] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+Server threadEx[28Mar2026 20:42:21.900] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+Server threadEx[28Mar2026 20:42:21.925] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+Server threadEx[28Mar2026 20:42:21.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+Server threadEx[28Mar2026 20:42:22.491] [Worker-Main-3/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 0%
+Worker-Main-3Ex[28Mar2026 20:42:22.492] [Worker-Main-3/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 0%
+Worker-Main-3Ex[28Mar2026 20:42:22.992] [Worker-Main-3/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 32%
+Worker-Main-3Ex[28Mar2026 20:42:23.231] [Server thread/INFO] [net.minecraft.class_3951/]: Time elapsed: 1245 ms
+Server threadEx[28Mar2026 20:42:23.231] [Server thread/INFO] [net.minecraft.class_3176/]: Done (6.267s)! For help, type "help"
+Server threadEx[28Mar2026 20:43:27.845] [User Authenticator #1/INFO] [net.minecraft.class_3248/]: UUID of player Xplix is 5219f159-e9ab-3b3e-8c78-072aa75742ca
+User Authenticator #1Ex[28Mar2026 20:43:27.910] [Server thread/WARN] [net.minecraft.class_3442/]: Invalid statistic in ./world/stats/5219f159-e9ab-3b3e-8c78-072aa75742ca.json: Don't know what panal-mod:caja is
+Server threadEx[28Mar2026 20:43:27.910] [Server thread/WARN] [net.minecraft.class_3442/]: Invalid statistic in ./world/stats/5219f159-e9ab-3b3e-8c78-072aa75742ca.json: Don't know what panal-mod:caja is
+Server threadEx[28Mar2026 20:43:30.478] [Server thread/ERROR] [net.minecraft.class_1799/]: Tried to load invalid item: 'Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: panal-mod:caja'
+Server threadEx[28Mar2026 20:43:30.480] [Server thread/INFO] [net.minecraft.class_3324/]: Xplix[/127.174.195.80:51873] logged in with entity id 44 at (19.925373541025568, 64.74834719663481, -84.40002776884445)
+Server threadEx[28Mar2026 20:43:30.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xplix joined the game
+Server threadEx[28Mar2026 20:43:53.748] [Server thread/INFO] [net.minecraft.class_3244/]: Xplix issued server command: /setworldspawn -111 68 -144
+Server threadEx[28Mar2026 20:43:53.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Xplix: Set the world spawn point to -111, 68, -144 [0.0]]
+Server threadEx[28Mar2026 20:44:50.459] [Server thread/INFO] [net.minecraft.class_3244/]: Xplix issued server command: /give @a papa-bomba:game_selector
+Server threadEx[28Mar2026 20:44:50.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Xplix: Gave 1 [item.papa-bomba.game_selector] to Xplix]
+Server threadEx[28Mar2026 20:44:59.542] [Server thread/INFO] [net.minecraft.class_3244/]: Xplix issued server command: /give @a papa-bomba:soport_block
+Server threadEx[28Mar2026 20:44:59.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Xplix: Gave 1 [block.papa-bomba.soport_block] to Xplix]
+Server threadEx[28Mar2026 20:45:04.264] [Server thread/INFO] [net.minecraft.class_3244/]: Xplix issued server command: /give @a papa-bomba:game_button_block
+Server threadEx[28Mar2026 20:45:04.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Xplix: Gave 1 [block.papa-bomba.game_button_block] to Xplix]
+Server threadEx[28Mar2026 20:46:07.782] [Server thread/INFO] [net.minecraft.class_3244/]: Xplix issued server command: /time set day
+Server threadEx[28Mar2026 20:46:07.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Xplix: Set the time to 1000]
+Server threadEx[28Mar2026 20:47:18.902] [User Authenticator #2/INFO] [net.minecraft.class_3248/]: UUID of player Emanueel is 372a3a37-7786-33c6-b664-8c468d9b6edc
+User Authenticator #2Ex[28Mar2026 20:47:21.767] [Server thread/INFO] [net.minecraft.class_3324/]: Emanueel[/127.46.231.80:49893] logged in with entity id 906 at (-102.5, 69.0, -138.5)
+Server threadEx[28Mar2026 20:47:21.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Emanueel joined the game
+Server threadEx[28Mar2026 20:47:37.357] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> que quiere porbar primero
+Async Chat Thread - #0Ex[28Mar2026 20:47:43.461] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Emanueel> panal
+Async Chat Thread - #0Ex[28Mar2026 20:47:46.354] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> ok
+Async Chat Thread - #0Ex[28Mar2026 20:47:49.450] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> que forma
+Async Chat Thread - #0Ex[28Mar2026 20:47:55.409] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Emanueel> la mas facil
+Async Chat Thread - #0Ex[28Mar2026 20:48:03.094] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> ya pera
+Async Chat Thread - #0Ex[28Mar2026 20:48:05.544] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-107, y=68, z=-151}
+Server threadEx[28Mar2026 20:48:05.646] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-106, y=68, z=-151}
+Server threadEx[28Mar2026 20:48:06.345] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-105, y=68, z=-151}
+Server threadEx[28Mar2026 20:48:06.895] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-105, y=68, z=-153}
+Server threadEx[28Mar2026 20:48:06.942] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-105, y=68, z=-154}
+Server threadEx[28Mar2026 20:48:09.293] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-106, y=68, z=-156}
+Server threadEx[28Mar2026 20:48:15.544] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-98, y=69, z=-135}
+Server threadEx[28Mar2026 20:48:15.644] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-98, y=68, z=-136}
+Server threadEx[28Mar2026 20:48:19.594] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-99, y=69, z=-135}
+Server threadEx[28Mar2026 20:48:19.944] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-98, y=69, z=-135}
+Server threadEx[28Mar2026 20:48:19.996] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-98, y=69, z=-136}
+Server threadEx[28Mar2026 20:48:20.093] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-98, y=68, z=-136}
+Server threadEx[28Mar2026 20:48:20.192] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-97, y=68, z=-136}
+Server threadEx[28Mar2026 20:48:20.210] [Server thread/INFO] [net.minecraft.class_3244/]: Xplix issued server command: /give Emanueel panal-mod:caja_barco
+Server threadEx[28Mar2026 20:48:20.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Xplix: Gave 1 [item.panal-mod.caja_barco] to Emanueel]
+Server threadEx[28Mar2026 20:48:20.343] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-97, y=68, z=-137}
+Server threadEx[28Mar2026 20:48:20.395] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-97, y=68, z=-138}
+Server threadEx[28Mar2026 20:48:20.495] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-97, y=68, z=-138}
+Server threadEx[28Mar2026 20:48:20.543] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-97, y=68, z=-139}
+Server threadEx[28Mar2026 20:48:20.594] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-97, y=68, z=-139}
+Server threadEx[28Mar2026 20:48:20.644] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-97, y=68, z=-140}
+Server threadEx[28Mar2026 20:48:20.695] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-97, y=68, z=-141}
+Server threadEx[28Mar2026 20:48:21.144] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-97, y=68, z=-142}
+Server threadEx[28Mar2026 20:48:21.193] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-97, y=68, z=-143}
+Server threadEx[28Mar2026 20:48:21.244] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-97, y=68, z=-144}
+Server threadEx[28Mar2026 20:51:49.045] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Emanueel> esta recortada la imagen?
+Async Chat Thread - #1Ex[28Mar2026 20:51:56.920] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> yes
+Async Chat Thread - #1Ex[28Mar2026 20:51:59.979] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Emanueel> hay como algo raro en los bordes
+Async Chat Thread - #1Ex[28Mar2026 20:52:05.603] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> si ps
+Async Chat Thread - #1Ex[28Mar2026 20:52:07.663] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Emanueel> entonces no es de ti?
+Async Chat Thread - #1Ex[28Mar2026 20:52:20.823] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> nop lo saque de los squids
+Async Chat Thread - #1Ex[28Mar2026 20:52:34.667] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> y como te parecio
+Async Chat Thread - #1Ex[28Mar2026 20:52:37.229] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Emanueel> cuidado te pueden funar
+Async Chat Thread - #1Ex[28Mar2026 20:52:39.745] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Emanueel> ta bueno
+Async Chat Thread - #1Ex[28Mar2026 20:52:47.331] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Emanueel> pero no lo recortes
+Async Chat Thread - #1Ex[28Mar2026 20:52:51.140] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> como que funar
+Async Chat Thread - #1Ex[28Mar2026 20:52:56.529] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> solo es la galleta
+Async Chat Thread - #1Ex[28Mar2026 20:52:59.251] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> del fondop
+Async Chat Thread - #1Ex[28Mar2026 20:53:01.318] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> despues
+Async Chat Thread - #1Ex[28Mar2026 20:53:03.762] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> las figuras
+Async Chat Thread - #1Ex[28Mar2026 20:53:06.137] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> lo hice
+Async Chat Thread - #1Ex[28Mar2026 20:53:08.003] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> yo
+Async Chat Thread - #1Ex[28Mar2026 20:53:12.095] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> y todo lo demas
+Async Chat Thread - #1Ex[28Mar2026 20:53:17.530] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Emanueel> ah ok
+Async Chat Thread - #1Ex[28Mar2026 20:53:19.942] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> perdistes o ganstes?
+Async Chat Thread - #1Ex[28Mar2026 20:53:23.613] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Emanueel> perfi
+Async Chat Thread - #1Ex[28Mar2026 20:53:25.901] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> xd
+Async Chat Thread - #1Ex[28Mar2026 20:53:27.580] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Emanueel> perdi
+Async Chat Thread - #1Ex[28Mar2026 20:53:34.240] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> ahora buscaminas?
+Async Chat Thread - #1Ex[28Mar2026 20:53:41.063] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Emanueel> ok
+Async Chat Thread - #1Ex[28Mar2026 20:54:24.453] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Emanueel> no deja
+Async Chat Thread - #1Ex[28Mar2026 20:54:29.298] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-106, y=68, z=-141}
+Server threadEx[28Mar2026 20:54:30.047] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-106, y=68, z=-142}
+Server threadEx[28Mar2026 20:54:31.405] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-107, y=68, z=-142}
+Server threadEx[28Mar2026 20:54:31.448] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-106, y=68, z=-142}
+Server threadEx[28Mar2026 20:54:33.133] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> averda
+Async Chat Thread - #1Ex[28Mar2026 20:54:35.101] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> pera
+Async Chat Thread - #1Ex[28Mar2026 20:54:41.187] [Server thread/INFO] [net.minecraft.class_3244/]: Xplix issued server command: /papabomba delete
+Server threadEx[28Mar2026 20:54:44.508] [Server thread/INFO] [net.minecraft.class_3244/]: Xplix issued server command: /gamemode creative
+Server threadEx[28Mar2026 20:54:44.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Xplix: Set own game mode to Creative Mode]
+Server threadEx[28Mar2026 20:54:49.689] [Server thread/INFO] [net.minecraft.class_3244/]: Xplix issued server command: /op Emanueel
+Server threadEx[28Mar2026 20:54:49.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Xplix: Made Emanueel a server operator]
+Server threadEx[28Mar2026 20:54:55.142] [Server thread/INFO] [net.minecraft.class_3244/]: Emanueel issued server command: /gamemode adventure
+Server threadEx[28Mar2026 20:54:55.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Emanueel: Set own game mode to Adventure Mode]
+Server threadEx[28Mar2026 20:55:03.750] [Server thread/INFO] [net.minecraft.class_3244/]: Emanueel issued server command: /gamemode survival
+Server threadEx[28Mar2026 20:55:03.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Emanueel: Set own game mode to Survival Mode]
+Server threadEx[28Mar2026 20:55:05.570] [Server thread/INFO] [net.minecraft.class_3244/]: Emanueel issued server command: /gamemode creative
+Server threadEx[28Mar2026 20:55:05.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Emanueel: Set own game mode to Creative Mode]
+Server threadEx[28Mar2026 20:55:28.417] [Server thread/INFO] [net.minecraft.class_3244/]: Xplix issued server command: /papabomba delete
+Server threadEx[28Mar2026 20:55:33.185] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> que paso
+Async Chat Thread - #1Ex[28Mar2026 20:55:35.982] [Server thread/INFO] [net.minecraft.class_3244/]: Xplix issued server command: /gamemode creative
+Server threadEx[28Mar2026 20:55:35.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Xplix: Set own game mode to Creative Mode]
+Server threadEx[28Mar2026 20:55:58.082] [Server thread/INFO] [net.minecraft.class_3244/]: Xplix issued server command: /give Xplix papa-bomba:game_selector
+Server threadEx[28Mar2026 20:55:58.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Xplix: Gave 1 [item.papa-bomba.game_selector] to Xplix]
+Server threadEx[28Mar2026 20:56:07.512] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> bro
+Async Chat Thread - #1Ex[28Mar2026 20:56:30.229] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=-106, y=68, z=-143} class_2338{x=-107, y=68, z=-143}
+Server threadEx[28Mar2026 20:57:17.718] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=-106, y=68, z=-143} class_2338{x=-106, y=67, z=-143}
+Server threadEx[28Mar2026 20:57:41.990] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=-109, y=68, z=-138} class_2338{x=-106, y=68, z=-136}
+Server threadEx[28Mar2026 20:58:36.566] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=-101, y=68, z=-140} class_2338{x=-102, y=68, z=-140}
+Server threadEx[28Mar2026 20:58:37.815] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=-101, y=68, z=-141} class_2338{x=-101, y=68, z=-142}
+Server threadEx[28Mar2026 20:58:56.566] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=-102, y=68, z=-143} class_2338{x=-103, y=68, z=-143}
+Server threadEx[28Mar2026 20:58:59.968] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=-102, y=68, z=-142} class_2338{x=-103, y=68, z=-142}
+Server threadEx[28Mar2026 20:59:06.743] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=-102, y=68, z=-144} class_2338{x=-102, y=68, z=-145}
+Server threadEx[28Mar2026 20:59:40.767] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=-103, y=68, z=-146} class_2338{x=-103, y=67, z=-145}
+Server threadEx[28Mar2026 20:59:45.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xplix was killed
+Server threadEx[28Mar2026 20:59:55.122] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> ´pipiip
+Async Chat Thread - #2Ex[28Mar2026 21:00:00.497] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> ganastes bro
+Async Chat Thread - #2Ex[28Mar2026 21:00:06.036] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Emanueel> ta bueno
+Async Chat Thread - #2Ex[28Mar2026 21:00:10.837] [Server thread/INFO] [net.minecraft.class_3244/]: Xplix issued server command: /papabomba delete
+Server threadEx[28Mar2026 21:00:15.036] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> y tu que juegos
+Async Chat Thread - #2Ex[28Mar2026 21:00:19.058] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Emanueel> las texturas las hiciste tu ?
+Async Chat Thread - #2Ex[28Mar2026 21:00:19.896] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> estas haiendo
+Async Chat Thread - #2Ex[28Mar2026 21:00:25.387] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> si eso si
+Async Chat Thread - #2Ex[28Mar2026 21:00:29.764] [Server thread/INFO] [net.minecraft.class_3244/]: Xplix issued server command: /gamemode creative
+Server threadEx[28Mar2026 21:00:29.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Xplix: Set own game mode to Creative Mode]
+Server threadEx[28Mar2026 21:00:31.420] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Emanueel> yo no estoy haciendo squid
+Async Chat Thread - #2Ex[28Mar2026 21:00:41.953] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> aya y que estas haciendo
+Async Chat Thread - #2Ex[28Mar2026 21:01:12.229] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Emanueel> 💀💀
+Async Chat Thread - #2Ex[28Mar2026 21:01:23.277] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> que es eso xd
+Async Chat Thread - #2Ex[28Mar2026 21:01:33.554] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Emanueel> luego lo anuncio en mi discord
+Async Chat Thread - #2Ex[28Mar2026 21:01:41.150] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> a verdad bro lo unico
+Async Chat Thread - #2Ex[28Mar2026 21:01:46.959] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Emanueel> bueno me voy bye
+Async Chat Thread - #2Ex[28Mar2026 21:01:49.340] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> que quiero es que aun no compartas
+Async Chat Thread - #2Ex[28Mar2026 21:01:51.557] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> mis mods
+Async Chat Thread - #2Ex[28Mar2026 21:02:05.613] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xplix> porfa
+Async Chat Thread - #2Ex[28Mar2026 21:02:18.788] [Server thread/INFO] [net.minecraft.class_3244/]: Emanueel lost connection: Disconnected
+Server threadEx[28Mar2026 21:02:18.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Emanueel left the game
+Server threadEx[28Mar2026 21:02:22.837] [Server thread/INFO] [net.minecraft.class_3244/]: Xplix lost connection: Disconnected
+Server threadEx[28Mar2026 21:02:22.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xplix left the game
+Server threadEx[28Mar2026 21:39:44.823] [User Authenticator #3/INFO] [net.minecraft.class_3248/]: UUID of player Xplix is 5219f159-e9ab-3b3e-8c78-072aa75742ca
+User Authenticator #3Ex[28Mar2026 21:39:47.210] [Server thread/INFO] [net.minecraft.class_3324/]: Xplix[/127.174.195.80:60709] logged in with entity id 2745 at (-99.97910259891293, 69.0, -147.05737732743546)
+Server threadEx[28Mar2026 21:39:47.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xplix joined the game
+Server threadEx[28Mar2026 21:39:56.916] [Server thread/INFO] [net.minecraft.class_3244/]: Xplix issued server command: /time set day
+Server threadEx[28Mar2026 21:39:56.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Xplix: Set the time to 1000]
+Server threadEx[28Mar2026 21:40:05.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xplix has made the advancement [Monster Hunter]
+Server threadEx[28Mar2026 21:40:42.943] [Server thread/INFO] [net.minecraft.class_3244/]: Xplix issued server command: /give Xplix panal-mod:caja_barco
+Server threadEx[28Mar2026 21:40:42.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Xplix: Gave 1 [item.panal-mod.caja_barco] to Xplix]
+Server threadEx[28Mar2026 21:42:30.888] [Server thread/INFO] [net.minecraft.class_3244/]: Xplix lost connection: Disconnected
+Server threadEx[28Mar2026 21:42:30.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xplix left the game
+Server threadEx
