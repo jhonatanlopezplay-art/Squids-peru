@@ -1,0 +1,701 @@
+[05Apr2026 01:34:28.163] [main/INFO] [FabricLoader/GameProvider/]: Loading Minecraft 1.21.1 Arclight arclight-1.21.1-1.0.2-SNAPSHOT-9c004d4 with Fabric Loader 0.18.2
+mainEx[05Apr2026 01:34:28.946] [main/INFO] [FabricLoader/]: Loading 47 mods:
+	- arclight 1.0.2-SNAPSHOT+9c004d4
+	   \-- fabric-permissions-api-v0 0.3.1
+	- fabric-api 0.116.7+1.21.1
+	   |-- fabric-api-base 0.4.42+6573ed8c19
+	   |-- fabric-api-lookup-api-v1 1.6.71+b559734419
+	   |-- fabric-biome-api-v1 13.0.31+d527f9fd19
+	   |-- fabric-block-api-v1 1.1.0+0bc3503219
+	   |-- fabric-block-view-api-v2 1.0.11+ebb2264e19
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a719
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c19
+	   |-- fabric-command-api-v1 1.2.49+f71b366f19
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd919
+	   |-- fabric-commands-v0 0.2.66+df3654b319
+	   |-- fabric-content-registries-v0 8.0.19+b559734419
+	   |-- fabric-convention-tags-v1 2.1.5+7f945d5b19
+	   |-- fabric-convention-tags-v2 2.11.1+a406e79519
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a719
+	   |-- fabric-data-attachment-api-v1 1.4.5+6116a37819
+	   |-- fabric-data-generation-api-v1 20.2.34+37516cd619
+	   |-- fabric-dimensions-v1 4.0.1+65213ef819
+	   |-- fabric-entity-events-v1 1.8.0+2b27e0a419
+	   |-- fabric-events-interaction-v0 0.7.13+ba9dae0619
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd919
+	   |-- fabric-item-api-v1 11.2.0+3b3cb2e819
+	   |-- fabric-item-group-api-v1 4.1.7+def88e3a19
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a719
+	   |-- fabric-keybindings-v0 0.2.45+df3654b319
+	   |-- fabric-lifecycle-events-v1 2.6.0+0865547519
+	   |-- fabric-loot-api-v2 3.0.15+3f89f5a519
+	   |-- fabric-loot-api-v3 1.0.3+3f89f5a519
+	   |-- fabric-message-api-v1 6.0.14+8aaf3aca19
+	   |-- fabric-model-loading-api-v1 2.1.0+b4d813fc19
+	   |-- fabric-networking-api-v1 4.3.0+c7469b2119
+	   |-- fabric-object-builder-api-v1 15.2.1+40875a9319
+	   |-- fabric-particles-v1 4.0.2+6573ed8c19
+	   |-- fabric-recipe-api-v1 5.0.15+2475392c19
+	   |-- fabric-registry-sync-v0 5.3.1+e3eddc2119
+	   |-- fabric-renderer-api-v1 3.4.1+b4d813fc19
+	   |-- fabric-renderer-indigo 1.7.1+c705a49c19
+	   |-- fabric-renderer-registries-v1 3.2.69+df3654b319
+	   |-- fabric-rendering-data-attachment-v1 0.3.49+73761d2e19
+	   |-- fabric-rendering-fluids-v1 3.1.6+1daea21519
+	   |-- fabric-rendering-v0 1.1.72+df3654b319
+	   |-- fabric-rendering-v1 5.1.0+ab4c25a019
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
+	   |-- fabric-resource-loader-v0 1.3.1+5b5275af19
+	   |-- fabric-screen-api-v1 2.0.25+8b68f1c719
+	   |-- fabric-screen-handler-api-v1 1.3.90+b559734419
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8c19
+	   |-- fabric-transfer-api-v1 5.4.3+c24bd99419
+	   \-- fabric-transitive-access-wideners-v1 6.2.0+45b9699719
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- geckolib 4.8.4
+	- java 21
+	- minecraft 1.21.1
+	- panal-mod 1.0.0
+	- papa-bomba 1-BETA
+	- reframed 1.6.6
+mainEx[05Apr2026 01:34:29.196] [main/INFO] [FabricLoader/Mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Squids-peru/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+mainEx[05Apr2026 01:34:29.379] [main/INFO] [FabricLoader/Mixin/]: Compatibility level set to JAVA_21
+mainEx[05Apr2026 01:34:29.899] [main/INFO] [Arclight/]: Using locale en_ and fallback locale en_us
+mainEx[05Apr2026 01:34:29.905] [main/INFO] [Arclight/]: 
+
+       ___           ___     __   /\
+      /   | ________/ (_)__ / /  / /
+     / /| |/ __/ __/ / / _ / _ \/__/
+    / ___ / / / /_/ / / / / // / /
+   /_/  |/_/  \__/_/_/\_ /_//_/ /
+                     /__/     \/
+
+    Version 诸王 (Feudal Kings) / arclight-fabric-1.21.1-1.0.2-SNAPSHOT+9c004d4
+    Build Date 2026-01-20 14:20:11
+
+mainEx[05Apr2026 01:34:32.075] [main/INFO] [FabricLoader/MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+mainEx[05Apr2026 01:34:40.663] [main/INFO] [panal-mod/]: Registered ModItems
+mainEx[05Apr2026 01:34:40.665] [main/INFO] [panal-mod/]: [PanalMod] Bloques registrados.
+mainEx[05Apr2026 01:34:40.665] [main/INFO] [panal-mod/]: [PanalMod] Sonidos registrados.
+mainEx[05Apr2026 01:34:40.673] [main/INFO] [panal-mod/]: PanalMod initialized!
+mainEx[05Apr2026 01:34:40.675] [main/INFO] [papa-bomba/]: 🥔 Papa Bomba inicializando...
+mainEx[05Apr2026 01:34:40.678] [main/INFO] [papa-bomba/]: Sonidos registrados: papa-bomba:enterrar papa-bomba:explosion
+mainEx[05Apr2026 01:34:40.697] [main/INFO] [papa-bomba/]: 🥔 Papa Bomba listo!
+mainEx[05Apr2026 01:34:41.103] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+mainEx[05Apr2026 01:34:43.375] [main/INFO] [net.minecraft.class_1863/]: Loaded 1362 recipes
+mainEx[05Apr2026 01:34:43.618] [main/INFO] [net.minecraft.class_163/]: Loaded 1472 advancements
+mainEx[05Apr2026 01:34:44.383] [main/INFO] [net.fabricmc.fabric.impl.biome.modification.BiomeModificationImpl/]: Applied 0 biome modifications to 0 of 64 new biomes in 1.282 ms
+mainEx[05Apr2026 01:34:44.389] [Server thread/INFO] [net.minecraft.class_3176/]: Starting minecraft server version 1.21.1
+Server threadEx[05Apr2026 01:34:44.389] [Server thread/INFO] [net.minecraft.class_3176/]: Loading properties
+Server threadEx[05Apr2026 01:34:44.389] [Server thread/INFO] [net.minecraft.class_3176/]: Default game type: SURVIVAL
+Server threadEx[05Apr2026 01:34:44.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+Server threadEx[05Apr2026 01:34:44.458] [Server thread/INFO] [net.minecraft.class_3176/]: Starting Minecraft server on *:25565
+Server threadEx[05Apr2026 01:34:44.537] [Server thread/INFO] [net.minecraft.class_3242/]: Using epoll channel type
+Server threadEx[05Apr2026 01:34:44.611] [Server thread/WARN] [net.minecraft.class_3176/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+Server threadEx[05Apr2026 01:34:44.611] [Server thread/WARN] [net.minecraft.class_3176/]: The server will make no attempt to authenticate usernames. Beware.
+Server threadEx[05Apr2026 01:34:44.611] [Server thread/WARN] [net.minecraft.class_3176/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+Server threadEx[05Apr2026 01:34:44.611] [Server thread/WARN] [net.minecraft.class_3176/]: To change this, set "online-mode" to "true" in the server.properties file.
+Server threadEx[05Apr2026 01:34:44.780] [Server thread/INFO] [Minecraft/]: This server is running Arclight version arclight-1.21.1-1.0.2-SNAPSHOT-9c004d4 (MC: 1.21.1) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+Server threadEx[05Apr2026 01:34:45.418] [Server thread/INFO] [Minecraft/]: *** This version of Spigot contains changes to some enums. If you notice that plugins no longer work after updating, please report this to the developers of those plugins first. ***
+Server threadEx[05Apr2026 01:34:45.418] [Server thread/INFO] [Minecraft/]: *** If you cannot update those plugins, you can try setting `settings.compatibility.enum-compatibility-mode` to `true` in `bukkit.yml`. ***
+Server threadEx[05Apr2026 01:34:45.828] [Server thread/INFO] [Arclight/]: Registering for Bukkit ...
+Server threadEx[05Apr2026 01:34:45.852] [Server thread/INFO] [Arclight/]: Registered 53 new materials with 43 blocks and 10 items
+Server threadEx[05Apr2026 01:34:46.028] [Server thread/INFO] [Arclight/]: Registered 0 new entity types
+Server threadEx[05Apr2026 01:34:46.029] [Server thread/INFO] [Arclight/]: Registered 0 new biomes
+Server threadEx[05Apr2026 01:34:46.053] [Server thread/INFO] [net.minecraft.class_2983/]: [STDOUT]: Server Ping Player Sample Count: 12
+Server threadEx[05Apr2026 01:34:46.056] [Spigot Watchdog Thread/INFO] [Arclight/]: Started pseudo Spigot watchdog thread.
+Spigot Watchdog ThreadEx[05Apr2026 01:34:46.056] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+Server threadEx[05Apr2026 01:34:46.057] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+Server threadEx[05Apr2026 01:34:46.402] [Server thread/INFO] [Arclight/]: Loading mappings ...
+Server threadEx[05Apr2026 01:34:46.928] [Server thread/INFO] [Arclight/]: Loading plugin patchers ...
+Server threadEx[05Apr2026 01:34:47.755] [Server thread/INFO] [Minecraft/]: [Animorph] Loading 6 libraries... please wait
+Server threadEx[05Apr2026 01:34:48.000] [Server thread/INFO] [Minecraft/]: [Animorph] Loaded library /workspaces/Squids-peru/servidor_minecraft/libraries/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar
+Server threadEx[05Apr2026 01:34:48.000] [Server thread/INFO] [Minecraft/]: [Animorph] Loaded library /workspaces/Squids-peru/servidor_minecraft/libraries/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar
+Server threadEx[05Apr2026 01:34:48.000] [Server thread/INFO] [Minecraft/]: [Animorph] Loaded library /workspaces/Squids-peru/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+Server threadEx[05Apr2026 01:34:48.000] [Server thread/INFO] [Minecraft/]: [Animorph] Loaded library /workspaces/Squids-peru/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+Server threadEx[05Apr2026 01:34:48.000] [Server thread/INFO] [Minecraft/]: [Animorph] Loaded library /workspaces/Squids-peru/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+Server threadEx[05Apr2026 01:34:48.000] [Server thread/INFO] [Minecraft/]: [Animorph] Loaded library /workspaces/Squids-peru/servidor_minecraft/libraries/net/kyori/adventure-text-logger-slf4j/4.17.0/adventure-text-logger-slf4j-4.17.0.jar
+Server threadEx[05Apr2026 01:34:48.000] [Server thread/INFO] [Minecraft/]: [Animorph] Loaded library /workspaces/Squids-peru/servidor_minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+Server threadEx[05Apr2026 01:34:48.000] [Server thread/INFO] [Minecraft/]: [Animorph] Loaded library /workspaces/Squids-peru/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar
+Server threadEx[05Apr2026 01:34:48.000] [Server thread/INFO] [Minecraft/]: [Animorph] Loaded library /workspaces/Squids-peru/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.17.0/adventure-text-serializer-gson-4.17.0.jar
+Server threadEx[05Apr2026 01:34:48.000] [Server thread/INFO] [Minecraft/]: [Animorph] Loaded library /workspaces/Squids-peru/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.17.0/adventure-text-serializer-json-4.17.0.jar
+Server threadEx[05Apr2026 01:34:48.000] [Server thread/INFO] [Minecraft/]: [Animorph] Loaded library /workspaces/Squids-peru/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
+Server threadEx[05Apr2026 01:34:48.000] [Server thread/INFO] [Minecraft/]: [Animorph] Loaded library /workspaces/Squids-peru/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+Server threadEx[05Apr2026 01:34:48.000] [Server thread/INFO] [Minecraft/]: [Animorph] Loaded library /workspaces/Squids-peru/servidor_minecraft/libraries/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar
+Server threadEx[05Apr2026 01:34:48.001] [Server thread/INFO] [Minecraft/]: [Animorph] Loaded library /workspaces/Squids-peru/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.17.0/adventure-text-serializer-legacy-4.17.0.jar
+Server threadEx[05Apr2026 01:34:48.001] [Server thread/INFO] [Minecraft/]: [Animorph] Loaded library /workspaces/Squids-peru/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-plain/4.17.0/adventure-text-serializer-plain-4.17.0.jar
+Server threadEx[05Apr2026 01:34:48.071] [Server thread/INFO] [packetevents/]: Loading packetevents v2.11.2
+Server threadEx[05Apr2026 01:34:50.184] [Server thread/INFO] [WorldEdit/]: Loading WorldEdit v7.3.9+6959-7adf70b
+Server threadEx[05Apr2026 01:34:50.809] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@73969ac]
+Server threadEx[05Apr2026 01:34:50.814] [Server thread/INFO] [Animorph/]: Loading Animorph v1.0.1-SNAPSHOT
+Server threadEx[05Apr2026 01:34:51.174] [Server thread/INFO] [Minecraft/]: Tracker events with PacketEvents enabled
+Server threadEx[05Apr2026 01:34:51.176] [Server thread/INFO] [WorldEdit/]: Enabling WorldEdit v7.3.9+6959-7adf70b
+Server threadEx[05Apr2026 01:34:51.423] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+Server threadEx[05Apr2026 01:34:51.531] [Server thread/INFO] [com.sk89q.wepif.PermissionsResolverManager/]: WEPIF: Using the Bukkit Permissions API.
+Server threadEx[05Apr2026 01:34:51.661] [Server thread/WARN] [Arclight/]: Loading WorldEdit Bukkit support ...
+Server threadEx[05Apr2026 01:34:51.661] [Server thread/WARN] [Arclight/]: For WorldEdit compatibility issues, please report to us in advance!
+Server threadEx[05Apr2026 01:34:51.703] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+Server threadEx[05Apr2026 01:34:53.030] [Server thread/INFO] [WorldEdit/]: ====================================================
+Server threadEx[05Apr2026 01:34:53.030] [Server thread/INFO] [WorldEdit/]:  WorldEdit works better if you use Paper 
+Server threadEx[05Apr2026 01:34:53.030] [Server thread/INFO] [WorldEdit/]:  as your server software. 
+Server threadEx[05Apr2026 01:34:53.030] [Server thread/INFO] [WorldEdit/]:   
+Server threadEx[05Apr2026 01:34:53.030] [Server thread/INFO] [WorldEdit/]:  Paper offers significant performance improvements,
+Server threadEx[05Apr2026 01:34:53.030] [Server thread/INFO] [WorldEdit/]:  bug fixes, security enhancements and optional
+Server threadEx[05Apr2026 01:34:53.030] [Server thread/INFO] [WorldEdit/]:  features for server owners to enhance their server.
+Server threadEx[05Apr2026 01:34:53.031] [Server thread/INFO] [WorldEdit/]:   
+Server threadEx[05Apr2026 01:34:53.031] [Server thread/INFO] [WorldEdit/]:  Paper includes Timings v2, which is significantly
+Server threadEx[05Apr2026 01:34:53.031] [Server thread/INFO] [WorldEdit/]:  better at diagnosing lag problems over v1.
+Server threadEx[05Apr2026 01:34:53.031] [Server thread/INFO] [WorldEdit/]:   
+Server threadEx[05Apr2026 01:34:53.031] [Server thread/INFO] [WorldEdit/]:  All of your plugins should still work, and the
+Server threadEx[05Apr2026 01:34:53.031] [Server thread/INFO] [WorldEdit/]:  Paper community will gladly help you fix any issues.
+Server threadEx[05Apr2026 01:34:53.031] [Server thread/INFO] [WorldEdit/]:   
+Server threadEx[05Apr2026 01:34:53.031] [Server thread/INFO] [WorldEdit/]:  Join the Paper Community @ https://papermc.io
+Server threadEx[05Apr2026 01:34:53.031] [Server thread/INFO] [WorldEdit/]: ====================================================
+Server threadEx[05Apr2026 01:34:53.034] [Server thread/INFO] [net.minecraft.class_3176/]: Preparing level "world"
+Server threadEx[05Apr2026 01:34:53.042] [Server thread/INFO] [Arclight/]: Registered 0 new dimensions
+Server threadEx[05Apr2026 01:34:53.145] [Server thread/INFO] [Minecraft/]: -------- World Settings For [Mundo nuevo] --------
+Server threadEx[05Apr2026 01:34:53.145] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+Server threadEx[05Apr2026 01:34:53.145] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.145] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.145] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.145] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.145] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.145] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.145] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.145] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.145] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.145] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.145] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.145] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.145] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.145] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.145] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.145] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.145] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.146] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.146] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.146] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+Server threadEx[05Apr2026 01:34:53.146] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+Server threadEx[05Apr2026 01:34:53.146] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+Server threadEx[05Apr2026 01:34:53.146] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+Server threadEx[05Apr2026 01:34:53.146] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+Server threadEx[05Apr2026 01:34:53.146] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+Server threadEx[05Apr2026 01:34:53.146] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+Server threadEx[05Apr2026 01:34:53.146] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+Server threadEx[05Apr2026 01:34:53.146] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+Server threadEx[05Apr2026 01:34:53.146] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+Server threadEx[05Apr2026 01:34:53.146] [Server thread/INFO] [Minecraft/]: View Distance: 10
+Server threadEx[05Apr2026 01:34:53.146] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+Server threadEx[05Apr2026 01:34:53.146] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+Server threadEx[05Apr2026 01:34:53.146] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+Server threadEx[05Apr2026 01:34:53.146] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+Server threadEx[05Apr2026 01:34:53.844] [Server thread/INFO] [Minecraft/]: -------- World Settings For [Mundo nuevo/DIM1] --------
+Server threadEx[05Apr2026 01:34:53.844] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+Server threadEx[05Apr2026 01:34:53.844] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.844] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.844] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.844] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.844] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.844] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.844] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.844] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.844] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.844] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.844] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.844] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.844] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.844] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.844] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.845] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.845] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.845] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.845] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.845] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+Server threadEx[05Apr2026 01:34:53.845] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+Server threadEx[05Apr2026 01:34:53.845] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+Server threadEx[05Apr2026 01:34:53.845] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+Server threadEx[05Apr2026 01:34:53.845] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+Server threadEx[05Apr2026 01:34:53.845] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+Server threadEx[05Apr2026 01:34:53.845] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+Server threadEx[05Apr2026 01:34:53.845] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+Server threadEx[05Apr2026 01:34:53.845] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+Server threadEx[05Apr2026 01:34:53.845] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+Server threadEx[05Apr2026 01:34:53.845] [Server thread/INFO] [Minecraft/]: View Distance: 10
+Server threadEx[05Apr2026 01:34:53.845] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+Server threadEx[05Apr2026 01:34:53.845] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+Server threadEx[05Apr2026 01:34:53.845] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+Server threadEx[05Apr2026 01:34:53.845] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+Server threadEx[05Apr2026 01:34:53.871] [Server thread/INFO] [Minecraft/]: -------- World Settings For [Mundo nuevo/DIM-1] --------
+Server threadEx[05Apr2026 01:34:53.871] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+Server threadEx[05Apr2026 01:34:53.871] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.871] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.871] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.871] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.871] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.871] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.871] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.871] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.871] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.872] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.872] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.872] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.872] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.872] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.872] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.872] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.872] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.872] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.872] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+Server threadEx[05Apr2026 01:34:53.872] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+Server threadEx[05Apr2026 01:34:53.872] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+Server threadEx[05Apr2026 01:34:53.872] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+Server threadEx[05Apr2026 01:34:53.872] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+Server threadEx[05Apr2026 01:34:53.872] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+Server threadEx[05Apr2026 01:34:53.872] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+Server threadEx[05Apr2026 01:34:53.872] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+Server threadEx[05Apr2026 01:34:53.872] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+Server threadEx[05Apr2026 01:34:53.872] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+Server threadEx[05Apr2026 01:34:53.872] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+Server threadEx[05Apr2026 01:34:53.872] [Server thread/INFO] [Minecraft/]: View Distance: 10
+Server threadEx[05Apr2026 01:34:53.872] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+Server threadEx[05Apr2026 01:34:53.872] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+Server threadEx[05Apr2026 01:34:53.872] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+Server threadEx[05Apr2026 01:34:53.872] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+Server threadEx[05Apr2026 01:34:53.891] [Server thread/INFO] [packetevents/]: Enabling packetevents v2.11.2
+Server threadEx[05Apr2026 01:34:53.893] [packetevents-update-check-thread/INFO] [Console/]: [packetevents] Checking for updates, please wait...
+packetevents-update-check-threadEx[05Apr2026 01:34:53.904] [Server thread/INFO] [Animorph/]: Enabling Animorph v1.0.1-SNAPSHOT
+Server threadEx[05Apr2026 01:34:53.972] [Server thread/INFO] [Animorph/]: Loading file example.yml
+Server threadEx[05Apr2026 01:34:53.973] [Server thread/INFO] [Animorph/]: Loading file example.yml
+Server threadEx[05Apr2026 01:34:53.974] [Server thread/INFO] [Animorph/]: Loading file example.yml
+Server threadEx[05Apr2026 01:34:53.977] [Server thread/WARN] [Animorph/]: error on loading animation filedoggy.animation.json
+Server threadEx[05Apr2026 01:34:53.977] [Server thread/WARN] [Animorph/]: plugins/Animorph/animations/doggy.animation.json
+Server threadEx[05Apr2026 01:34:53.977] [Server thread/INFO] [Animorph/]: Loaded 1 animations
+Server threadEx[05Apr2026 01:34:53.981] [Server thread/WARN] [Animorph/]: Model file not found: example.geo.json
+Server threadEx[05Apr2026 01:34:53.981] [Server thread/WARN] [Animorph/]: Model file not found: example_slim.geo.json
+Server threadEx[05Apr2026 01:34:53.986] [Server thread/INFO] [Animorph/]: Loaded 2 models
+Server threadEx[05Apr2026 01:34:53.994] [packetevents-update-check-thread/INFO] [Console/]: [packetevents] You are running the latest release of PacketEvents. Your build: (2.11.2)
+packetevents-update-check-threadEx[05Apr2026 01:34:53.998] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+Server threadEx[05Apr2026 01:34:54.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+Server threadEx[05Apr2026 01:34:54.570] [Worker-Main-1/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 0%
+Worker-Main-1Ex[05Apr2026 01:34:54.571] [Worker-Main-1/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 0%
+Worker-Main-1Ex[05Apr2026 01:34:54.811] [Server thread/INFO] [net.minecraft.class_3951/]: Time elapsed: 762 ms
+Server threadEx[05Apr2026 01:34:54.811] [Server thread/INFO] [net.minecraft.class_3176/]: Done (1.777s)! For help, type "help"
+Server threadEx[05Apr2026 01:35:04.771] [User Authenticator #1/INFO] [net.minecraft.class_3248/]: UUID of player elgato_peruanoo is 276dafdf-c77e-3d4c-8d18-c6f83e97e8d3
+User Authenticator #1Ex[05Apr2026 01:35:07.372] [Server thread/INFO] [net.minecraft.class_3324/]: elgato_peruanoo[/127.96.14.179:58377] logged in with entity id 8 at (6.5, -60.0, 4.5)
+Server threadEx[05Apr2026 01:35:07.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elgato_peruanoo joined the game
+Server threadEx[05Apr2026 01:35:51.423] [User Authenticator #2/INFO] [net.minecraft.class_3248/]: UUID of player x_plix1 is 78981dce-29f1-3879-96cd-3f9a0d07fd79
+User Authenticator #2Ex[05Apr2026 01:35:54.397] [Server thread/INFO] [net.minecraft.class_3324/]: x_plix1[/127.61.210.38:42671] logged in with entity id 18 at (-6.5, -60.0, 6.5)
+Server threadEx[05Apr2026 01:35:54.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: x_plix1 joined the game
+Server threadEx[05Apr2026 01:36:00.957] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> ya espera
+Async Chat Thread - #0Ex[05Apr2026 01:36:17.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made x_plix1 a server operator
+Server threadEx[05Apr2026 01:36:21.671] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /gamemode creative
+Server threadEx[05Apr2026 01:36:21.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Set own game mode to Creative Mode]
+Server threadEx[05Apr2026 01:36:24.382] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /op elgato_peruanoo
+Server threadEx[05Apr2026 01:36:24.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Made elgato_peruanoo a server operator]
+Server threadEx[05Apr2026 01:36:43.930] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /gamemode creative
+Server threadEx[05Apr2026 01:36:43.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elgato_peruanoo: Set own game mode to Creative Mode]
+Server threadEx[05Apr2026 01:36:48.867] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /kill x_plix1
+Server threadEx[05Apr2026 01:36:48.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: x_plix1 was killed
+Server threadEx[05Apr2026 01:36:48.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elgato_peruanoo: Killed x_plix1]
+Server threadEx[05Apr2026 01:36:53.846] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> xd
+Async Chat Thread - #0Ex[05Apr2026 01:37:46.906] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> como se llamaba el studio=?
+Async Chat Thread - #0Ex[05Apr2026 01:37:55.154] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> lebiu
+Async Chat Thread - #0Ex[05Apr2026 01:38:12.480] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> ya queria ver si se podian robar los mods
+Async Chat Thread - #0Ex[05Apr2026 01:38:32.565] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> comom asi
+Async Chat Thread - #0Ex[05Apr2026 01:40:31.106] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> bro
+Async Chat Thread - #1Ex[05Apr2026 01:40:34.372] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /tp elgato_peruanoo
+Server threadEx[05Apr2026 01:40:34.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Teleported x_plix1 to elgato_peruanoo]
+Server threadEx[05Apr2026 01:41:11.337] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /tp elgato_peruanoo
+Server threadEx[05Apr2026 01:41:11.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Teleported x_plix1 to elgato_peruanoo]
+Server threadEx[05Apr2026 01:41:15.144] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> acuerdate que hay gente como yo que se va en los archivos para buscar y sacar modelos y eso de los mods
+Async Chat Thread - #1Ex[05Apr2026 01:41:16.294] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /tp elgato_peruanoo x_plix1
+Server threadEx[05Apr2026 01:41:16.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Teleported elgato_peruanoo to x_plix1]
+Server threadEx[05Apr2026 01:41:39.235] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> si si eso voy intentar experiemntar con cosas para descubriri como ocultar
+Async Chat Thread - #1Ex[05Apr2026 01:41:51.471] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> los archivos importantes
+Async Chat Thread - #1Ex[05Apr2026 01:42:28.551] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> ahora que
+Async Chat Thread - #1Ex[05Apr2026 01:42:34.824] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> debemos hacer modelos
+Async Chat Thread - #1Ex[05Apr2026 01:42:51.982] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> lo que se viene a la mente es hacer como se descargan los mods al entrar al minecraft pero despues de salirse se los borra automaticamente
+Async Chat Thread - #1Ex[05Apr2026 01:42:52.508] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> o haces un mod con bloques de los squids como la puerta
+Async Chat Thread - #1Ex[05Apr2026 01:43:01.041] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> si eso tmb
+Async Chat Thread - #1Ex[05Apr2026 01:43:01.301] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> pero asi
+Async Chat Thread - #1Ex[05Apr2026 01:43:08.708] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> o haces un blockcreator
+Async Chat Thread - #1Ex[05Apr2026 01:43:25.924] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> na
+Async Chat Thread - #1Ex[05Apr2026 01:43:32.130] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> para el futuro
+Async Chat Thread - #1Ex[05Apr2026 01:43:32.998] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> oe
+Async Chat Thread - #1Ex[05Apr2026 01:43:40.984] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> bueno bueno
+Async Chat Thread - #1Ex[05Apr2026 01:43:42.524] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> hay bloques personalizados y usas la de minecraft
+Async Chat Thread - #1Ex[05Apr2026 01:43:52.020] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /time set day
+Server threadEx[05Apr2026 01:43:52.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Set the time to 1000]
+Server threadEx[05Apr2026 01:43:58.215] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /tp elgato_peruanoo x_plix1
+Server threadEx[05Apr2026 01:43:58.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Teleported elgato_peruanoo to x_plix1]
+Server threadEx[05Apr2026 01:44:00.943] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> oye
+Async Chat Thread - #1Ex[05Apr2026 01:44:03.933] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> que fue
+Async Chat Thread - #1Ex[05Apr2026 01:44:04.736] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> ven
+Async Chat Thread - #1Ex[05Apr2026 01:44:11.614] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> quiero ver
+Async Chat Thread - #1Ex[05Apr2026 01:44:14.432] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> mi modelo
+Async Chat Thread - #1Ex[05Apr2026 01:44:17.475] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> tde la galleta
+Async Chat Thread - #1Ex[05Apr2026 01:44:24.107] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> ponte una galleta
+Async Chat Thread - #1Ex[05Apr2026 01:45:07.746] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /give elgato_peruanoo panal-mod:caja_circulo_block
+Server threadEx[05Apr2026 01:45:07.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elgato_peruanoo: Gave 1 [block.panal-mod.caja_circulo_block] to elgato_peruanoo]
+Server threadEx[05Apr2026 01:45:19.065] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta iniciar elgato_peruanoo 1
+Server threadEx[05Apr2026 01:45:19.067] [Server thread/INFO] [panal-mod/]: [GalletaManager] Partida #4 iniciada. MaxPerdedores=1
+Server threadEx[05Apr2026 01:45:19.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] ¡Juego #4 iniciado! Todos los jugadores pueden usar su caja. El juego terminará cuando 1 jugador(es) pierdan.]
+Server threadEx[05Apr2026 01:45:20.811] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> ya
+Async Chat Thread - #1Ex[05Apr2026 01:46:05.564] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta acabar
+Server threadEx[05Apr2026 01:46:05.566] [Server thread/INFO] [panal-mod/]: [GalletaManager] Partida #4 terminada.
+Server threadEx[05Apr2026 01:46:05.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] Juego terminado. Las pantallas se han cerrado.]
+Server threadEx[05Apr2026 01:46:11.573] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> ya aver
+Async Chat Thread - #1Ex[05Apr2026 01:46:15.573] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> el otro modelo
+Async Chat Thread - #1Ex[05Apr2026 01:46:25.096] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta iniciar @a 1
+Server threadEx[05Apr2026 01:46:25.097] [Server thread/INFO] [panal-mod/]: [GalletaManager] Partida #5 iniciada. MaxPerdedores=1
+Server threadEx[05Apr2026 01:46:25.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] ¡Juego #5 iniciado! Todos los jugadores pueden usar su caja. El juego terminará cuando 1 jugador(es) pierdan.]
+Server threadEx[05Apr2026 01:46:28.427] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> despues te paso el modpack bro
+Async Chat Thread - #1Ex[05Apr2026 01:46:33.433] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> ya
+Async Chat Thread - #1Ex[05Apr2026 01:46:34.044] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /give elgato_peruanoo panal-mod:caja_barco
+Server threadEx[05Apr2026 01:46:34.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elgato_peruanoo: Gave 1 [item.panal-mod.caja_barco] to elgato_peruanoo]
+Server threadEx[05Apr2026 01:46:41.189] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta acabar
+Server threadEx[05Apr2026 01:46:41.190] [Server thread/INFO] [panal-mod/]: [GalletaManager] Partida #5 terminada.
+Server threadEx[05Apr2026 01:46:41.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] Juego terminado. Las pantallas se han cerrado.]
+Server threadEx[05Apr2026 01:46:44.442] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> no se te puso
+Async Chat Thread - #1Ex[05Apr2026 01:46:49.507] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta iniciar @a 1
+Server threadEx[05Apr2026 01:46:49.507] [Server thread/INFO] [panal-mod/]: [GalletaManager] Partida #6 iniciada. MaxPerdedores=1
+Server threadEx[05Apr2026 01:46:49.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] ¡Juego #6 iniciado! Todos los jugadores pueden usar su caja. El juego terminará cuando 1 jugador(es) pierdan.]
+Server threadEx[05Apr2026 01:46:50.144] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> denuevo
+Async Chat Thread - #1Ex[05Apr2026 01:46:53.895] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta acabar
+Server threadEx[05Apr2026 01:46:53.895] [Server thread/INFO] [panal-mod/]: [GalletaManager] Partida #6 terminada.
+Server threadEx[05Apr2026 01:46:53.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] Juego terminado. Las pantallas se han cerrado.]
+Server threadEx[05Apr2026 01:46:55.670] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta iniciar @a 1
+Server threadEx[05Apr2026 01:46:55.671] [Server thread/INFO] [panal-mod/]: [GalletaManager] Partida #7 iniciada. MaxPerdedores=1
+Server threadEx[05Apr2026 01:46:55.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] ¡Juego #7 iniciado! Todos los jugadores pueden usar su caja. El juego terminará cuando 1 jugador(es) pierdan.]
+Server threadEx[05Apr2026 01:47:09.233] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> dale
+Async Chat Thread - #1Ex[05Apr2026 01:47:17.337] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta acabar
+Server threadEx[05Apr2026 01:47:17.338] [Server thread/INFO] [panal-mod/]: [GalletaManager] Partida #7 terminada.
+Server threadEx[05Apr2026 01:47:17.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] Juego terminado. Las pantallas se han cerrado.]
+Server threadEx[05Apr2026 01:47:21.219] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta iniciar @a 1
+Server threadEx[05Apr2026 01:47:21.219] [Server thread/INFO] [panal-mod/]: [GalletaManager] Partida #8 iniciada. MaxPerdedores=1
+Server threadEx[05Apr2026 01:47:21.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] ¡Juego #8 iniciado! Todos los jugadores pueden usar su caja. El juego terminará cuando 1 jugador(es) pierdan.]
+Server threadEx[05Apr2026 01:47:25.227] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta acabar
+Server threadEx[05Apr2026 01:47:25.228] [Server thread/INFO] [panal-mod/]: [GalletaManager] Partida #8 terminada.
+Server threadEx[05Apr2026 01:47:25.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] Juego terminado. Las pantallas se han cerrado.]
+Server threadEx[05Apr2026 01:47:27.455] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta iniciar @a 1
+Server threadEx[05Apr2026 01:47:27.456] [Server thread/INFO] [panal-mod/]: [GalletaManager] Partida #9 iniciada. MaxPerdedores=1
+Server threadEx[05Apr2026 01:47:27.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] ¡Juego #9 iniciado! Todos los jugadores pueden usar su caja. El juego terminará cuando 1 jugador(es) pierdan.]
+Server threadEx[05Apr2026 01:47:30.156] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> otra xd
+Async Chat Thread - #1Ex[05Apr2026 01:47:36.142] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /give elgato_peruanoo panal-mod:caja_barco_block
+Server threadEx[05Apr2026 01:47:36.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elgato_peruanoo: Gave 1 [block.panal-mod.caja_barco_block] to elgato_peruanoo]
+Server threadEx[05Apr2026 01:47:45.596] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> no sale el otro que raro
+Async Chat Thread - #1Ex[05Apr2026 01:47:48.341] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta acabar
+Server threadEx[05Apr2026 01:47:48.342] [Server thread/INFO] [panal-mod/]: [GalletaManager] Partida #9 terminada.
+Server threadEx[05Apr2026 01:47:48.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] Juego terminado. Las pantallas se han cerrado.]
+Server threadEx[05Apr2026 01:47:51.330] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta iniciar @a 1
+Server threadEx[05Apr2026 01:47:51.330] [Server thread/INFO] [panal-mod/]: [GalletaManager] Partida #10 iniciada. MaxPerdedores=1
+Server threadEx[05Apr2026 01:47:51.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] ¡Juego #10 iniciado! Todos los jugadores pueden usar su caja. El juego terminará cuando 1 jugador(es) pierdan.]
+Server threadEx[05Apr2026 01:47:54.743] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> aver la ulktima
+Async Chat Thread - #1Ex[05Apr2026 01:47:58.574] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta acabar
+Server threadEx[05Apr2026 01:47:58.575] [Server thread/INFO] [panal-mod/]: [GalletaManager] Partida #10 terminada.
+Server threadEx[05Apr2026 01:47:58.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] Juego terminado. Las pantallas se han cerrado.]
+Server threadEx[05Apr2026 01:48:00.575] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> no ya fue
+Async Chat Thread - #1Ex[05Apr2026 01:48:17.559] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> aver yo mirame
+Async Chat Thread - #1Ex[05Apr2026 01:48:25.269] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /give @a panal-mod:caja_barco
+Server threadEx[05Apr2026 01:48:25.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Gave 1 [item.panal-mod.caja_barco] to 2]
+Server threadEx[05Apr2026 01:48:35.746] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta iniciar @a 1
+Server threadEx[05Apr2026 01:48:35.747] [Server thread/INFO] [panal-mod/]: [GalletaManager] Partida #11 iniciada. MaxPerdedores=1
+Server threadEx[05Apr2026 01:48:35.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] ¡Juego #11 iniciado! Todos los jugadores pueden usar su caja. El juego terminará cuando 1 jugador(es) pierdan.]
+Server threadEx[05Apr2026 01:48:37.567] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> mirame
+Async Chat Thread - #1Ex[05Apr2026 01:48:42.127] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> mirameeeee
+Async Chat Thread - #1Ex[05Apr2026 01:48:44.221] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> te miro
+Async Chat Thread - #1Ex[05Apr2026 01:49:00.916] [Server thread/INFO] [panal-mod/]: [GalletaManager] Perdedor #1/1 UUID=78981dce-29f1-3879-96cd-3f9a0d07fd79
+Server threadEx[05Apr2026 01:49:00.916] [Server thread/INFO] [panal-mod/]: [GalletaManager] Límite de perdedores alcanzado. Acabando juego.
+Server threadEx[05Apr2026 01:49:00.917] [Server thread/INFO] [panal-mod/]: [GalletaManager] Partida #11 terminada.
+Server threadEx[05Apr2026 01:49:03.860] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> XD
+Async Chat Thread - #1Ex[05Apr2026 01:49:05.130] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> y
+Async Chat Thread - #1Ex[05Apr2026 01:49:05.731] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> si se puso
+Async Chat Thread - #1Ex[05Apr2026 01:49:11.405] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> cual
+Async Chat Thread - #1Ex[05Apr2026 01:49:15.460] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> el de sentado
+Async Chat Thread - #1Ex[05Apr2026 01:49:22.649] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> o el de echado
+Async Chat Thread - #1Ex[05Apr2026 01:49:36.610] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> cualll
+Async Chat Thread - #1Ex[05Apr2026 01:49:49.963] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> aya ya vbvi xd
+Async Chat Thread - #1Ex[05Apr2026 01:49:58.965] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> pero no se pone el otro ppipipi
+Async Chat Thread - #1Ex[05Apr2026 01:50:39.212] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> ya van aconstruit
+Async Chat Thread - #1Ex[05Apr2026 01:50:39.972] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> oeee
+Async Chat Thread - #1Ex[05Apr2026 01:50:43.515] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> que
+Async Chat Thread - #1Ex[05Apr2026 01:50:44.025] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> espera
+Async Chat Thread - #1Ex[05Apr2026 01:51:15.140] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /gamemode survival x_plix1
+Server threadEx[05Apr2026 01:51:15.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elgato_peruanoo: Set x_plix1's game mode to Survival Mode]
+Server threadEx[05Apr2026 01:51:16.639] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> que paso}
+Async Chat Thread - #1Ex[05Apr2026 01:51:17.976] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> volteate
+Async Chat Thread - #1Ex[05Apr2026 01:51:24.499] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> y agachate
+Async Chat Thread - #1Ex[05Apr2026 01:51:26.467] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> volteate
+Async Chat Thread - #1Ex[05Apr2026 01:51:34.281] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> oeee
+Async Chat Thread - #1Ex[05Apr2026 01:51:35.009] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> trabaja esclavo
+Async Chat Thread - #1Ex[05Apr2026 01:51:35.522] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> jajaja
+Async Chat Thread - #1Ex[05Apr2026 01:51:38.547] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /gamemode creative
+Server threadEx[05Apr2026 01:51:38.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Set own game mode to Creative Mode]
+Server threadEx[05Apr2026 01:51:43.936] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> ay que laburar
+Async Chat Thread - #1Ex[05Apr2026 01:51:47.255] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> ahorita vuelvo
+Async Chat Thread - #1Ex[05Apr2026 01:51:50.188] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> ya
+Async Chat Thread - #1Ex[05Apr2026 01:53:27.335] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /time set day
+Server threadEx[05Apr2026 01:53:27.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Set the time to 1000]
+Server threadEx[05Apr2026 01:55:06.586] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /gamemode survival @a
+Server threadEx[05Apr2026 01:55:06.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Set elgato_peruanoo's game mode to Survival Mode]
+Server threadEx[05Apr2026 01:55:06.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Set own game mode to Survival Mode]
+Server threadEx[05Apr2026 01:55:07.868] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /gamemode creative
+Server threadEx[05Apr2026 01:55:07.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Set own game mode to Creative Mode]
+Server threadEx[05Apr2026 01:59:24.398] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /tp elgato_peruanoo x_plix1
+Server threadEx[05Apr2026 01:59:24.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Teleported elgato_peruanoo to x_plix1]
+Server threadEx[05Apr2026 02:00:14.524] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /give @a minecraft:light
+Server threadEx[05Apr2026 02:00:14.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Gave 1 [Light] to 2]
+Server threadEx[05Apr2026 02:01:13.005] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /effect give @a minecraft:night_vision infinite 200 true
+Server threadEx[05Apr2026 02:01:13.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Applied effect Night Vision to 2 targets]
+Server threadEx[05Apr2026 02:02:55.090] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /time set day
+Server threadEx[05Apr2026 02:02:55.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Set the time to 1000]
+Server threadEx[05Apr2026 02:03:35.265] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 lost connection: Disconnected
+Server threadEx[05Apr2026 02:03:35.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: x_plix1 left the game
+Server threadEx[05Apr2026 02:03:43.362] [User Authenticator #3/INFO] [net.minecraft.class_3248/]: UUID of player x_plix1 is 78981dce-29f1-3879-96cd-3f9a0d07fd79
+User Authenticator #3Ex[05Apr2026 02:03:45.694] [Server thread/INFO] [net.minecraft.class_3324/]: x_plix1[/127.61.210.38:57301] logged in with entity id 54 at (3.9704484834551, -16.261759584868077, -91.11280704624306)
+Server threadEx[05Apr2026 02:03:45.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: x_plix1 joined the game
+Server threadEx[05Apr2026 02:03:59.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elgato_peruanoo was slain by x_plix1
+Server threadEx[05Apr2026 02:04:29.153] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /tp elgato_peruanoo x_plix1
+Server threadEx[05Apr2026 02:04:29.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Teleported elgato_peruanoo to x_plix1]
+Server threadEx[05Apr2026 02:04:34.461] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /tp elgato_peruanoo x_plix1
+Server threadEx[05Apr2026 02:04:34.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Teleported elgato_peruanoo to x_plix1]
+Server threadEx[05Apr2026 02:07:56.854] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /give @a panal-mod:caja_calamar
+Server threadEx[05Apr2026 02:07:56.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Gave 1 [item.panal-mod.caja_calamar] to 2]
+Server threadEx[05Apr2026 02:08:09.284] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta iniciar @a 1
+Server threadEx[05Apr2026 02:08:09.284] [Server thread/INFO] [panal-mod/]: [GalletaManager] Partida #12 iniciada. MaxPerdedores=1
+Server threadEx[05Apr2026 02:08:09.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] ¡Juego #12 iniciado! Todos los jugadores pueden usar su caja. El juego terminará cuando 1 jugador(es) pierdan.]
+Server threadEx[05Apr2026 02:08:15.087] [Server thread/INFO] [panal-mod/]: [GalletaManager] Perdedor #1/1 UUID=78981dce-29f1-3879-96cd-3f9a0d07fd79
+Server threadEx[05Apr2026 02:08:15.087] [Server thread/INFO] [panal-mod/]: [GalletaManager] Límite de perdedores alcanzado. Acabando juego.
+Server threadEx[05Apr2026 02:08:15.087] [Server thread/INFO] [panal-mod/]: [GalletaManager] Partida #12 terminada.
+Server threadEx[05Apr2026 02:08:24.043] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta reset x_plix1
+Server threadEx[05Apr2026 02:08:24.043] [Server thread/INFO] [panal-mod/]: [GalletaManager] Reset jugador 78981dce-29f1-3879-96cd-3f9a0d07fd79
+Server threadEx[05Apr2026 02:08:24.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] Estado de x_plix1 reseteado.]
+Server threadEx[05Apr2026 02:08:33.166] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta iniciar @a 1
+Server threadEx[05Apr2026 02:08:33.167] [Server thread/INFO] [panal-mod/]: [GalletaManager] Partida #13 iniciada. MaxPerdedores=1
+Server threadEx[05Apr2026 02:08:33.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] ¡Juego #13 iniciado! Todos los jugadores pueden usar su caja. El juego terminará cuando 1 jugador(es) pierdan.]
+Server threadEx[05Apr2026 02:12:36.448] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /gamemode creative
+Server threadEx[05Apr2026 02:12:36.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elgato_peruanoo: Set own game mode to Creative Mode]
+Server threadEx[05Apr2026 02:12:47.556] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /tp x_plix1
+Server threadEx[05Apr2026 02:12:47.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elgato_peruanoo: Teleported elgato_peruanoo to x_plix1]
+Server threadEx[05Apr2026 02:12:52.360] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /kill x_plix1
+Server threadEx[05Apr2026 02:12:52.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: x_plix1 was killed
+Server threadEx[05Apr2026 02:12:52.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elgato_peruanoo: Killed x_plix1]
+Server threadEx[05Apr2026 02:12:55.777] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> broooo
+Async Chat Thread - #2Ex[05Apr2026 02:12:57.887] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> broro}
+Async Chat Thread - #2Ex[05Apr2026 02:13:02.957] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> PERDISTE
+Async Chat Thread - #2Ex[05Apr2026 02:13:03.271] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> xdd
+Async Chat Thread - #2Ex[05Apr2026 02:13:03.355] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /time set day
+Server threadEx[05Apr2026 02:13:03.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elgato_peruanoo: Set the time to 1000]
+Server threadEx[05Apr2026 02:13:05.265] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> mira como estoy xd
+Async Chat Thread - #2Ex[05Apr2026 02:13:09.149] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /tp elgato_peruanoo x_plix1
+Server threadEx[05Apr2026 02:13:09.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Teleported elgato_peruanoo to x_plix1]
+Server threadEx[05Apr2026 02:13:15.621] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> xdd
+Async Chat Thread - #2Ex[05Apr2026 02:13:19.470] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> yo te veo igual de burro
+Async Chat Thread - #2Ex[05Apr2026 02:13:25.025] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> yo no xd
+Async Chat Thread - #2Ex[05Apr2026 02:13:49.344] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta acabar
+Server threadEx[05Apr2026 02:13:49.345] [Server thread/INFO] [panal-mod/]: [GalletaManager] Partida #13 terminada.
+Server threadEx[05Apr2026 02:13:49.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] Juego terminado. Las pantallas se han cerrado.]
+Server threadEx[05Apr2026 02:14:23.395] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> bro que contruimos el techo no?
+Async Chat Thread - #2Ex[05Apr2026 02:14:33.093] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> nose
+Async Chat Thread - #2Ex[05Apr2026 02:14:51.744] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> como que nose
+Async Chat Thread - #2Ex[05Apr2026 02:14:57.684] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> aa
+Async Chat Thread - #2Ex[05Apr2026 02:15:04.725] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> construyamos los juegos
+Async Chat Thread - #2Ex[05Apr2026 02:15:11.921] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> pero y el lobby
+Async Chat Thread - #2Ex[05Apr2026 02:15:34.004] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> a si cierto el lobby
+Async Chat Thread - #2Ex[05Apr2026 02:15:37.924] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> sigamoslo pues
+Async Chat Thread - #2Ex[05Apr2026 02:15:47.525] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /tp elgato_peruanoo
+Server threadEx[05Apr2026 02:15:47.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Teleported x_plix1 to elgato_peruanoo]
+Server threadEx[05Apr2026 02:15:55.108] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> trabaja merry wein
+Async Chat Thread - #2Ex[05Apr2026 02:16:38.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: x_plix1 has made the advancement [Ice Bucket Challenge]
+Server threadEx[05Apr2026 02:16:46.813] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /gamemode survival @a
+Server threadEx[05Apr2026 02:16:46.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Set elgato_peruanoo's game mode to Survival Mode]
+Server threadEx[05Apr2026 02:16:46.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Set own game mode to Survival Mode]
+Server threadEx[05Apr2026 02:16:47.905] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /gamemode creative
+Server threadEx[05Apr2026 02:16:47.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Set own game mode to Creative Mode]
+Server threadEx[05Apr2026 02:16:50.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elgato_peruanoo was blown up by x_plix1
+Server threadEx[05Apr2026 02:16:53.650] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> xd
+Async Chat Thread - #2Ex[05Apr2026 02:16:55.219] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> noo mi casa tio
+Async Chat Thread - #2Ex[05Apr2026 02:16:57.505] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /gamemode creative
+Server threadEx[05Apr2026 02:16:57.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elgato_peruanoo: Set own game mode to Creative Mode]
+Server threadEx[05Apr2026 02:17:03.509] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> para que te pidieron ayuda?
+Async Chat Thread - #2Ex[05Apr2026 02:18:14.778] [Async Chat Thread - #3/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <x_plix1> brooo
+Async Chat Thread - #3Ex[05Apr2026 02:18:18.368] [Async Chat Thread - #3/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> qye fye
+Async Chat Thread - #3Ex[05Apr2026 02:18:21.920] [Async Chat Thread - #3/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elgato_peruanoo> ando viendo una imagen
+Async Chat Thread - #3Ex[05Apr2026 02:18:34.900] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /tp x_plix1
+Server threadEx[05Apr2026 02:18:34.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elgato_peruanoo: Teleported elgato_peruanoo to x_plix1]
+Server threadEx[05Apr2026 02:18:47.679] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: //stack 2
+Server threadEx[05Apr2026 02:22:03.161] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: //set black_concrete
+Server threadEx[05Apr2026 02:22:09.815] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /gamemode spectator
+Server threadEx[05Apr2026 02:22:09.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Set own game mode to Spectator Mode]
+Server threadEx[05Apr2026 02:22:25.411] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /effect give @a minecraft:night_vision infinite 200 true
+Server threadEx[05Apr2026 02:22:25.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Applied effect Night Vision to 2 targets]
+Server threadEx[05Apr2026 02:22:31.778] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /tp elgato_peruanoo x_plix1
+Server threadEx[05Apr2026 02:22:31.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Teleported elgato_peruanoo to x_plix1]
+Server threadEx[05Apr2026 02:22:53.487] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /gamemode creative
+Server threadEx[05Apr2026 02:22:53.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Set own game mode to Creative Mode]
+Server threadEx[05Apr2026 02:23:35.513] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: //set black_concrete
+Server threadEx[05Apr2026 02:24:25.901] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /tp x_plix1
+Server threadEx[05Apr2026 02:24:25.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elgato_peruanoo: Teleported elgato_peruanoo to x_plix1]
+Server threadEx[05Apr2026 02:25:09.186] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: //set 0
+Server threadEx[05Apr2026 02:25:51.201] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: //set 0
+Server threadEx[05Apr2026 02:26:33.112] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: //set black_concrete
+Server threadEx[05Apr2026 02:26:47.001] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: //set black_concrete
+Server threadEx[05Apr2026 02:26:58.855] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: //set black_concrete
+Server threadEx[05Apr2026 02:27:07.536] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: //set black_concrete
+Server threadEx[05Apr2026 02:27:48.345] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: //set iron_block
+Server threadEx[05Apr2026 02:28:22.431] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: //set iron_block
+Server threadEx[05Apr2026 02:28:30.739] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: //set iron_block
+Server threadEx[05Apr2026 02:28:45.512] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: //set 0
+Server threadEx[05Apr2026 02:29:29.331] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: //set iron_block
+Server threadEx[05Apr2026 02:29:38.999] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: //set iron_block
+Server threadEx[05Apr2026 02:29:47.284] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: //set iron_block
+Server threadEx[05Apr2026 02:31:58.914] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta reset elgato_peruanoo
+Server threadEx[05Apr2026 02:31:58.915] [Server thread/INFO] [panal-mod/]: [GalletaManager] Reset jugador 276dafdf-c77e-3d4c-8d18-c6f83e97e8d3
+Server threadEx[05Apr2026 02:31:58.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] Estado de elgato_peruanoo reseteado.]
+Server threadEx[05Apr2026 02:32:05.904] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta iniciar @a 1
+Server threadEx[05Apr2026 02:32:05.905] [Server thread/INFO] [panal-mod/]: [GalletaManager] Partida #14 iniciada. MaxPerdedores=1
+Server threadEx[05Apr2026 02:32:05.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] ¡Juego #14 iniciado! Todos los jugadores pueden usar su caja. El juego terminará cuando 1 jugador(es) pierdan.]
+Server threadEx[05Apr2026 02:32:17.500] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /kill x_plix1
+Server threadEx[05Apr2026 02:32:17.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: x_plix1 was killed
+Server threadEx[05Apr2026 02:32:17.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elgato_peruanoo: Killed x_plix1]
+Server threadEx[05Apr2026 02:32:22.415] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /tp elgato_peruanoo
+Server threadEx[05Apr2026 02:32:22.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Teleported x_plix1 to elgato_peruanoo]
+Server threadEx[05Apr2026 02:32:35.188] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /effect give @a minecraft:night_vision infinite 200 true
+Server threadEx[05Apr2026 02:32:35.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Applied effect Night Vision to 2 targets]
+Server threadEx[05Apr2026 02:32:40.692] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /give @a panal-mod:caja_barco
+Server threadEx[05Apr2026 02:32:40.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Gave 1 [item.panal-mod.caja_barco] to 2]
+Server threadEx[05Apr2026 02:33:15.737] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /gamemode survival @a
+Server threadEx[05Apr2026 02:33:15.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Set elgato_peruanoo's game mode to Survival Mode]
+Server threadEx[05Apr2026 02:33:15.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Set own game mode to Survival Mode]
+Server threadEx[05Apr2026 02:33:17.068] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /gamemode creative
+Server threadEx[05Apr2026 02:33:17.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Set own game mode to Creative Mode]
+Server threadEx[05Apr2026 02:33:25.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elgato_peruanoo fell from a high place
+Server threadEx[05Apr2026 02:33:31.030] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /gamemode creative
+Server threadEx[05Apr2026 02:33:31.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elgato_peruanoo: Set own game mode to Creative Mode]
+Server threadEx[05Apr2026 02:33:43.715] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta reset elgato_peruanoo
+Server threadEx[05Apr2026 02:33:43.715] [Server thread/INFO] [panal-mod/]: [GalletaManager] Reset jugador 276dafdf-c77e-3d4c-8d18-c6f83e97e8d3
+Server threadEx[05Apr2026 02:33:43.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] Estado de elgato_peruanoo reseteado.]
+Server threadEx[05Apr2026 02:33:57.165] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /time set day
+Server threadEx[05Apr2026 02:33:57.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elgato_peruanoo: Set the time to 1000]
+Server threadEx[05Apr2026 02:34:23.558] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /effect give elgato_peruanoo minecraft:night_vision infinite 1 true
+Server threadEx[05Apr2026 02:34:23.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elgato_peruanoo: Applied effect Night Vision to elgato_peruanoo]
+Server threadEx[05Apr2026 02:34:23.936] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /tp elgato_peruanoo x_plix1
+Server threadEx[05Apr2026 02:34:23.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Teleported elgato_peruanoo to x_plix1]
+Server threadEx[05Apr2026 02:34:33.106] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta reset elgato_peruanoo
+Server threadEx[05Apr2026 02:34:33.106] [Server thread/INFO] [panal-mod/]: [GalletaManager] Reset jugador 276dafdf-c77e-3d4c-8d18-c6f83e97e8d3
+Server threadEx[05Apr2026 02:34:33.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] Estado de elgato_peruanoo reseteado.]
+Server threadEx[05Apr2026 02:34:48.528] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta acabar
+Server threadEx[05Apr2026 02:34:48.529] [Server thread/INFO] [panal-mod/]: [GalletaManager] Partida #14 terminada.
+Server threadEx[05Apr2026 02:34:48.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] Juego terminado. Las pantallas se han cerrado.]
+Server threadEx[05Apr2026 02:35:40.433] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /tag @a add jugadores
+Server threadEx[05Apr2026 02:35:40.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Added tag 'jugadores' to 2 entities]
+Server threadEx[05Apr2026 02:36:07.444] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta reset elgato_peruanoo
+Server threadEx[05Apr2026 02:36:07.444] [Server thread/INFO] [panal-mod/]: [GalletaManager] Reset jugador 276dafdf-c77e-3d4c-8d18-c6f83e97e8d3
+Server threadEx[05Apr2026 02:36:07.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] Estado de elgato_peruanoo reseteado.]
+Server threadEx[05Apr2026 02:36:11.880] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta reset x_plix1
+Server threadEx[05Apr2026 02:36:11.880] [Server thread/INFO] [panal-mod/]: [GalletaManager] Reset jugador 78981dce-29f1-3879-96cd-3f9a0d07fd79
+Server threadEx[05Apr2026 02:36:11.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] Estado de x_plix1 reseteado.]
+Server threadEx[05Apr2026 02:36:23.657] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta iniciar @a 1
+Server threadEx[05Apr2026 02:36:23.657] [Server thread/INFO] [panal-mod/]: [GalletaManager] Partida #15 iniciada. MaxPerdedores=1
+Server threadEx[05Apr2026 02:36:23.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] ¡Juego #15 iniciado! Todos los jugadores pueden usar su caja. El juego terminará cuando 1 jugador(es) pierdan.]
+Server threadEx[05Apr2026 02:36:40.962] [Server thread/INFO] [panal-mod/]: [GalletaManager] Perdedor #1/1 UUID=276dafdf-c77e-3d4c-8d18-c6f83e97e8d3
+Server threadEx[05Apr2026 02:36:40.962] [Server thread/INFO] [panal-mod/]: [GalletaManager] Límite de perdedores alcanzado. Acabando juego.
+Server threadEx[05Apr2026 02:36:40.963] [Server thread/INFO] [panal-mod/]: [GalletaManager] Partida #15 terminada.
+Server threadEx[05Apr2026 02:36:55.827] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /galleta acabar
+Server threadEx[05Apr2026 02:37:00.864] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /galleta acabar
+Server threadEx[05Apr2026 02:37:08.742] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /galleta acabar
+Server threadEx[05Apr2026 02:37:15.912] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /galleta reset
+Server threadEx[05Apr2026 02:37:18.119] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /galleta reset @a
+Server threadEx[05Apr2026 02:37:20.967] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /galleta reset x_plix1
+Server threadEx[05Apr2026 02:37:20.967] [Server thread/INFO] [panal-mod/]: [GalletaManager] Reset jugador 78981dce-29f1-3879-96cd-3f9a0d07fd79
+Server threadEx[05Apr2026 02:37:20.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elgato_peruanoo: [Galleta] Estado de x_plix1 reseteado.]
+Server threadEx[05Apr2026 02:37:26.740] [Server thread/INFO] [panal-mod/]: [GalletaManager] Perdedor #2/1 UUID=78981dce-29f1-3879-96cd-3f9a0d07fd79
+Server threadEx[05Apr2026 02:37:26.740] [Server thread/INFO] [panal-mod/]: [GalletaManager] Límite de perdedores alcanzado. Acabando juego.
+Server threadEx[05Apr2026 02:37:34.220] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta reset x_plix1
+Server threadEx[05Apr2026 02:37:34.220] [Server thread/INFO] [panal-mod/]: [GalletaManager] Reset jugador 78981dce-29f1-3879-96cd-3f9a0d07fd79
+Server threadEx[05Apr2026 02:37:34.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] Estado de x_plix1 reseteado.]
+Server threadEx[05Apr2026 02:37:37.384] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta reset elgato_peruanoo
+Server threadEx[05Apr2026 02:37:37.385] [Server thread/INFO] [panal-mod/]: [GalletaManager] Reset jugador 276dafdf-c77e-3d4c-8d18-c6f83e97e8d3
+Server threadEx[05Apr2026 02:37:37.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] Estado de elgato_peruanoo reseteado.]
+Server threadEx[05Apr2026 02:37:51.854] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta iniciar @a 1
+Server threadEx[05Apr2026 02:37:51.855] [Server thread/INFO] [panal-mod/]: [GalletaManager] Partida #16 iniciada. MaxPerdedores=1
+Server threadEx[05Apr2026 02:37:51.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] ¡Juego #16 iniciado! Todos los jugadores pueden usar su caja. El juego terminará cuando 1 jugador(es) pierdan.]
+Server threadEx[05Apr2026 02:38:12.620] [Server thread/INFO] [panal-mod/]: [GalletaManager] Perdedor #1/1 UUID=276dafdf-c77e-3d4c-8d18-c6f83e97e8d3
+Server threadEx[05Apr2026 02:38:12.620] [Server thread/INFO] [panal-mod/]: [GalletaManager] Límite de perdedores alcanzado. Acabando juego.
+Server threadEx[05Apr2026 02:38:12.620] [Server thread/INFO] [panal-mod/]: [GalletaManager] Partida #16 terminada.
+Server threadEx[05Apr2026 02:38:22.262] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /galleta reset
+Server threadEx[05Apr2026 02:38:23.480] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /galleta reset x_plix1
+Server threadEx[05Apr2026 02:38:23.480] [Server thread/INFO] [panal-mod/]: [GalletaManager] Reset jugador 78981dce-29f1-3879-96cd-3f9a0d07fd79
+Server threadEx[05Apr2026 02:38:23.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elgato_peruanoo: [Galleta] Estado de x_plix1 reseteado.]
+Server threadEx[05Apr2026 02:38:25.532] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /galleta reset @a
+Server threadEx[05Apr2026 02:38:32.503] [Server thread/INFO] [panal-mod/]: [GalletaManager] Perdedor #2/1 UUID=78981dce-29f1-3879-96cd-3f9a0d07fd79
+Server threadEx[05Apr2026 02:38:32.503] [Server thread/INFO] [panal-mod/]: [GalletaManager] Límite de perdedores alcanzado. Acabando juego.
+Server threadEx[05Apr2026 02:38:53.029] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta reset x_plix1
+Server threadEx[05Apr2026 02:38:53.029] [Server thread/INFO] [panal-mod/]: [GalletaManager] Reset jugador 78981dce-29f1-3879-96cd-3f9a0d07fd79
+Server threadEx[05Apr2026 02:38:53.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] Estado de x_plix1 reseteado.]
+Server threadEx[05Apr2026 02:38:56.244] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /galleta reset elgato_peruanoo
+Server threadEx[05Apr2026 02:38:56.244] [Server thread/INFO] [panal-mod/]: [GalletaManager] Reset jugador 276dafdf-c77e-3d4c-8d18-c6f83e97e8d3
+Server threadEx[05Apr2026 02:38:56.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: [Galleta] Estado de elgato_peruanoo reseteado.]
+Server threadEx[05Apr2026 02:39:00.235] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /gamemode spectator
+Server threadEx[05Apr2026 02:39:00.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Set own game mode to Spectator Mode]
+Server threadEx[05Apr2026 02:39:04.322] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /gamemode creative
+Server threadEx[05Apr2026 02:39:04.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Set own game mode to Creative Mode]
+Server threadEx[05Apr2026 02:39:07.762] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /tp elgato_peruanoo x_plix1
+Server threadEx[05Apr2026 02:39:07.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Teleported elgato_peruanoo to x_plix1]
+Server threadEx[05Apr2026 02:39:30.659] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /give @a papa-bomba:game_selector
+Server threadEx[05Apr2026 02:39:30.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Gave 1 [item.papa-bomba.game_selector] to 2]
+Server threadEx[05Apr2026 02:39:34.495] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /give @a papa-bomba:game_button_block
+Server threadEx[05Apr2026 02:39:34.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Gave 1 [block.papa-bomba.game_button_block] to 2]
+Server threadEx[05Apr2026 02:40:36.063] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=303, y=-61, z=79} class_2338{x=306, y=-61, z=80}
+Server threadEx[05Apr2026 02:40:39.115] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /verbombas
+Server threadEx[05Apr2026 02:40:42.217] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /verbombas elgato_peruanoo
+Server threadEx[05Apr2026 02:40:48.272] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /verbombas elgato_peruanoo
+Server threadEx[05Apr2026 02:40:54.312] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /verbombas elgato_peruanoo
+Server threadEx[05Apr2026 02:41:35.170] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /noverbombas @a
+Server threadEx[05Apr2026 02:41:37.388] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /noverbombas elgato_peruanoo
+Server threadEx[05Apr2026 02:41:56.457] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /verbombas elgato_peruanoo
+Server threadEx[05Apr2026 02:42:01.245] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=299, y=-61, z=85} class_2338{x=301, y=-61, z=86}
+Server threadEx[05Apr2026 02:42:01.396] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=299, y=-61, z=85} class_2338{x=301, y=-61, z=87}
+Server threadEx[05Apr2026 02:42:01.446] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=299, y=-61, z=85} class_2338{x=301, y=-61, z=86}
+Server threadEx[05Apr2026 02:42:01.646] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=300, y=-61, z=85} class_2338{x=300, y=-61, z=86}
+Server threadEx[05Apr2026 02:42:11.757] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=307, y=-61, z=84} class_2338{x=308, y=-61, z=84}
+Server threadEx[05Apr2026 02:42:16.647] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=307, y=-61, z=84} class_2338{x=302, y=-61, z=79}
+Server threadEx[05Apr2026 02:42:24.803] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=305, y=-61, z=85} class_2338{x=304, y=-61, z=86}
+Server threadEx[05Apr2026 02:42:31.459] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=299, y=-61, z=84} class_2338{x=298, y=-61, z=84}
+Server threadEx[05Apr2026 02:42:51.545] [Server thread/WARN] [net.minecraft.class_3225/]: Mismatch in destroy block pos: class_2338{x=302, y=-61, z=83} class_2338{x=301, y=-61, z=83}
+Server threadEx[05Apr2026 02:43:11.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: x_plix1 was killed
+Server threadEx[05Apr2026 02:43:18.971] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /gamemode creative
+Server threadEx[05Apr2026 02:43:18.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Set own game mode to Creative Mode]
+Server threadEx[05Apr2026 02:43:23.858] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /papabomba delete
+Server threadEx[05Apr2026 02:43:30.148] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /tp elgato_peruanoo
+Server threadEx[05Apr2026 02:43:30.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Teleported x_plix1 to elgato_peruanoo]
+Server threadEx[05Apr2026 02:43:39.812] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /gamemode creative
+Server threadEx[05Apr2026 02:43:39.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elgato_peruanoo: Set own game mode to Creative Mode]
+Server threadEx[05Apr2026 02:43:59.592] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /time set day
+Server threadEx[05Apr2026 02:43:59.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Set the time to 1000]
+Server threadEx[05Apr2026 02:44:02.866] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /kill
+Server threadEx[05Apr2026 02:44:02.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elgato_peruanoo was killed
+Server threadEx[05Apr2026 02:44:02.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elgato_peruanoo: Killed elgato_peruanoo]
+Server threadEx[05Apr2026 02:44:08.939] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /effect give elgato_peruanoo minecraft:night_vision infinite 1 true
+Server threadEx[05Apr2026 02:44:08.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elgato_peruanoo: Applied effect Night Vision to elgato_peruanoo]
+Server threadEx[05Apr2026 02:44:34.149] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /tp elgato_peruanoo x_plix1
+Server threadEx[05Apr2026 02:44:34.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Teleported elgato_peruanoo to x_plix1]
+Server threadEx[05Apr2026 02:47:20.546] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: //move 4
+Server threadEx[05Apr2026 02:47:32.374] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: //re AIR
+Server threadEx[05Apr2026 02:53:10.693] [Server thread/INFO] [net.minecraft.class_3244/]: elgato_peruanoo issued server command: /weather clear
+Server threadEx[05Apr2026 02:53:10.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elgato_peruanoo: Set the weather to clear]
+Server threadEx[05Apr2026 02:53:39.410] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /time set day
+Server threadEx[05Apr2026 02:53:39.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Set the time to 1000]
+Server threadEx[05Apr2026 03:00:36.414] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 lost connection: Disconnected
+Server threadEx[05Apr2026 03:00:36.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: x_plix1 left the game
+Server threadEx[05Apr2026 03:04:20.435] [User Authenticator #4/INFO] [net.minecraft.class_3248/]: UUID of player x_plix1 is 78981dce-29f1-3879-96cd-3f9a0d07fd79
+User Authenticator #4Ex[05Apr2026 03:04:26.358] [Server thread/INFO] [net.minecraft.class_3324/]: x_plix1[/127.61.210.38:59019] logged in with entity id 349 at (48.75932453318847, -59.0, -199.69049196660075)
+Server threadEx[05Apr2026 03:04:26.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: x_plix1 joined the game
+Server threadEx[05Apr2026 03:04:39.809] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /effect give @a minecraft:night_vision infinite 200 true
+Server threadEx[05Apr2026 03:04:39.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Applied effect Night Vision to 2 targets]
+Server threadEx[05Apr2026 03:05:33.078] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 issued server command: /tp elgato_peruanoo
+Server threadEx[05Apr2026 03:05:33.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [x_plix1: Teleported x_plix1 to elgato_peruanoo]
+Server threadEx[05Apr2026 03:12:17.463] [Server thread/INFO] [net.minecraft.class_3244/]: x_plix1 lost connection: Disconnected
+Server threadEx[05Apr2026 03:12:17.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: x_plix1 left the game
+Server threadEx
